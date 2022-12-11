@@ -1,0 +1,28 @@
+{
+    "footer": {
+        "title": "Join our newsletter test",
+        "description": "Resources advice avoid trees declared particular offended others anxious husband chicken miles great account.",
+        "copyright": "2022 All right reserved. Made with",
+        "name": "ThemeAtelier",
+        "icon": "icofont-heart"
+    },
+    "footerv2": {
+        "title": "Join our newsletter test",
+        "description": "Resources advice avoid trees declared particular offended others anxious husband chicken miles great account.",
+        "copyright": "2002-2023 All right reserved. Made with",
+        "name": "TSVD",
+        "icon": "icofont-heart",
+        "number": {
+            "title": "Call Now:",
+            "text": "+852 57225345"
+        },
+        "email": {
+            "title": "Email Now:",
+            "text": "sales@tsvd.com.hk"
+        },
+        "location": {
+            "title": "Our Location:",
+            "text": "Room A7, 7/F, BLK A, Proficient Industrial Centre, 6 Wang Kwun Road, Kowloon Bay, Hong Kong"
+        }
+    }
+}
