@@ -53,51 +53,58 @@
       
       {
         "image": "assets/images/service/markting-service-5.webp",
-        "icon": "icofont-email",
-        "title": "Direct Mail",
+        "icon": "icofont-iphone",
+        "title": "Online ticket system",
         "development": "Have you realized MacRyrie asked her, that you're just like Novikov but with more charm and no OCD?"
       },  
       {
-        "remark":"// ios app queue and booking",
         "image": "assets/images/ts_features/f01.png",
-        "icon": "icofont-iphone",
-        "title": "Brand Identity",
+        "icon": "icofont-mobile-phone",
+        "title": "SMS notifications",
         "development": "Entrepreneur, you are your brand. Your website, business card, speech and how you walk and talk is your brand."
       },
       {
-        "remark":"// hardware timer for cafe de coral",
         "image": "assets/images/ts_features/f02.png",
-        "icon": "icofont-engineer",
-        "title": "Public Relations",
+        "icon": "icofont-businessman",
+        "title": "Real time Supervise",
         "development": "The key obstacle to reforming aid is public opinion.. Public opinion drives them into the 'I care' photo opportunities that dominate aid."
       },
       {
-        "remark":"// Hysan softkey",
         "image": "assets/images/ts_features/f03.png",
-        "icon": "icofont-data",
-        "title": "Public Relations",
+        "icon": "icofont-pie-chart",
+        "title": "Report for data analysis",
         "development": "The key obstacle to reforming aid is public opinion.. Public opinion drives them into the 'I care' photo opportunities that dominate aid."
       }
       ,
       {
-        "remark":"// 3d printed keypad",
         "image": "assets/images/ts_features/f04.png",
-        "icon": "icofont-user-male",
-        "title": "Public Relations",
+        "icon": "icofont-company",
+        "title": "One system multiple branch",
         "development": "The key obstacle to reforming aid is public opinion.. Public opinion drives them into the 'I care' photo opportunities that dominate aid."
       },
       {
         "remark":"// web ticketing",
         "image": "assets/images/ts_features/f05.png",
-        "icon": "icofont-user-male",
-        "title": "Public Relations",
+        "icon": "icofont-chart-flow-2",
+        "title": "Support one ticket to multiple counter",
         "development": "The key obstacle to reforming aid is public opinion.. Public opinion drives them into the 'I care' photo opportunities that dominate aid."
       },
       {
-        "remark":"// Plaza Hut keypad",
         "image": "assets/images/ts_features/f06.png",
-        "icon": "icofont-user-male",
-        "title": "Public Relations",
+        "icon": "icofont-ui-volume",
+        "title": "Voice announement",
+        "development": "The key obstacle to reforming aid is public opinion.. Public opinion drives them into the 'I care' photo opportunities that dominate aid."
+      },
+      {
+        "image": "assets/images/ts_features/f06.png",
+        "icon": "icofont-paper",
+        "title": "Paper out noifity",
+        "development": "The key obstacle to reforming aid is public opinion.. Public opinion drives them into the 'I care' photo opportunities that dominate aid."
+      },
+      {
+        "image": "assets/images/ts_features/f06.png",
+        "icon": "icofont-speed-meter",
+        "title": "Queue priority",
         "development": "The key obstacle to reforming aid is public opinion.. Public opinion drives them into the 'I care' photo opportunities that dominate aid."
       }
     

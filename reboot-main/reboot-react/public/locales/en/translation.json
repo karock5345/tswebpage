@@ -39,27 +39,39 @@
 
     "serviceSliders1": {
       "title": "Online ticket system",
-      "development": "Fight for the pandemic. Our online queuing system can help to reduce infection."
+      "development": "Coffee or tea, Fight for the pandemic. Our online queuing system can help to keep distance."
     },
     "serviceSliders2": {
-      "title": "Report for data analysis",
-      "development": "Analysis queuing data, find out the best manpower arrangement."
+      "title": "SMS notifications",
+      "development": "System auto send SMS to notifications customer come back to centre."
     },
     "serviceSliders3": {
       "title": "Real time Supervise",
       "development": "Any time any where supervise queuing and counter status."
     },
     "serviceSliders4": {
-      "title": "SMS notifications",
-      "development": "System auto send SMS to notifications customer come back to centre."
+      "title": "Report for data analysis",
+      "development": "Analysis queuing data, find out the best manpower arrangement."
     },
     "serviceSliders5": {
-      "title": "???",
-      "development": "Have you realized MacRyrie asked her, that you're just like Novikov but with more charm and no OCD?"
+      "title": "One system multiple branch",
+      "development": ""
     },
     "serviceSliders6": {
-      "title": "??? 2",
-      "development": "Have you realized MacRyrie asked her, that you're just like Novikov but with more charm and no OCD?"
+      "title": "Support one ticket to multiple counter",
+      "development": "Set your flow for example, first queue Info counter -> queue cashier counter."
+    },
+    "serviceSliders7": {
+      "title": "Voice announement",
+      "development": "Support voice announement, make sure anyone can noifity."
+    },
+    "serviceSliders8": {
+      "title": "Paper out noifity",
+      "development": "Noifity ticket printer paper near-end / paper out."
+    },
+    "serviceSliders9": {
+      "title": "Queue priority",
+      "development": ""
     }
   },
 
