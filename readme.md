@@ -56,7 +56,7 @@ Permissions -> add Bucket policy ->
 ```
 upload reboot-main\reboot-react\build\* to S3 (testing5345)
 
-# Set Route 53
+## Set Route 53
 ### <span style="color:orange;">**Domain name**</span>
 
 
@@ -84,7 +84,7 @@ NS-1433.AWSDNS-51.ORG
 NS-1666.AWSDNS-16.CO.UK
 ```
 
-# AWS Cloudfront and SSL
+## AWS Cloudfront and SSL
 ### <span style="color:orange;">**AWS Certificate Manager**</span>
 Request a certificate (public)
 
