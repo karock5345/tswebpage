@@ -172,32 +172,32 @@
     "features1": {
       "id": 1,
       "title": "Restaurant",
-      "description": "Popuror restaurant, many people queue outside. Our system can help you."
+      "description": "Printing tickets for the crowd on spot or online for popular restaurants, to save manpower and enhance image. It is also a tool  for crowd control and customer behaviour analysis."
     },
     "features2": {
       "id": 2,
       "title": "Service Centre",
-      "description": "Repair Centre, Information Counter, Payment counters"
+      "description": "Customer can queue onsite or online at their convenience. It is also a tool  for crowd control and customer behaviour analysis. Meaning increases customer satisfaction."
     },
     "features3": {
       "id": 3,
       "title": "Doctor and Clinic",
-      "description": "Fight for the pandemic. Our online queuing system can help to reduce infection."
+      "description": "Our online queuing system can help to keep social distance thus reducing risk of infection. Especially during pandemic period."
     },
     "features4": {
       "id": 4,
-      "title": "Insurance and Bank",
-      "description": "Enhance company image, make the customer enjoy the good service in wonderful environment, and increase the working efficiency."
+      "title": "Insurance and Banking Sector",
+      "description": "Queuing system as the frontier to greet customers can enhance company image. It is also a tool  for crowd control and customer behaviour analysis. Meaning increases customer satisfaction."
     },
     "features5": {
       "id": 5,
       "title": "Government Departments",
-      "description": "We do a lot of Departments, including Labour Dept., Rating and Valuation Dept., Inland Revenue Dept., Companies Registry, Immigration, etc."
+      "description": "We have been proud to serve government departments, including Labour Dept., Rating and Valuation Dept., Inland Revenue Dept., Companies Registry, Immigration, etc. With reliability and stability are most required."
     },
     "features6": {
       "id": 6,
       "title": "Public Utility Company",
-      "description": "Airport, Telcom, Energy, Hospitals, Water supply, etc."
+      "description": "Airport, Telcom, Energy, Hospitals, Water supply, etc. That deal with large crowd and long waiting time, can use online queuing system to shorten waiting time on spot."
     }
   },
   "whatWeDo": {
