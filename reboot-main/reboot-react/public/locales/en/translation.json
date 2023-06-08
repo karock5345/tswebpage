@@ -33,9 +33,8 @@
   },
   "servicev2": {
     "subtitle": "Our system features",
-    "title2": "",
-    "title": "Save man power ◊ Get ticket online ◊ Report for data analysis ◊ Real time Supervise",
-    "note": "*s2 Our engineer will send you more details",
+    "title": "◊ Save man power<br>◊ Online ticket<br>◊ Data gathering<br>◊ Real time Supervise",
+    "note": "Our engineer will send you more details",
 
     "serviceSliders1": {
       "title": "Online ticket system",
@@ -55,23 +54,19 @@
     },
     "serviceSliders5": {
       "title": "One system multiple branch",
-      "development": ""
+      "development": "Support multiple branch. Centralize settings including staff login, supervision, access data for analysis between branches etc."
     },
     "serviceSliders6": {
-      "title": "Support one ticket to multiple counter",
-      "development": "Set your flow for example, first queue Info counter -> queue cashier counter."
+      "title": "One ticket for multiple counter",
+      "development": "Set the flow tailor to your centre for example, one ticket to queue for Information counter -> cashier counter"
     },
     "serviceSliders7": {
       "title": "Voice announement",
-      "development": "Support voice announement, make sure anyone can noifity."
+      "development": "Support Cantonese, English, Mandarin and Portuguese voice announcement, make sure anyone are notified by a familiar language"
     },
     "serviceSliders8": {
-      "title": "Paper out noifity",
+      "title": "Out of Paper notification",
       "development": "Noifity ticket printer paper near-end / paper out."
-    },
-    "serviceSliders9": {
-      "title": "Queue priority",
-      "development": ""
     }
   },
 

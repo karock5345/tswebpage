@@ -33,27 +33,42 @@
 
     },
     "servicev2": {
-      "title": "Our Best Services",
-      "subtitle": "Service We Provide",
+      "subtitle": "系統特色",
+      "title": "◊ 節省人手<br>◊ 線上取票<br>◊ 數據收集<br>◊ 實時監督",
+      "note": "我們的工程師會向您提供更多詳細資料",
+
+
       "serviceSliders1": {
-        "title": "Brand Identity",
-        "development": "Entrepreneur, you are your brand. Your website, business card, speech and how you walk and talk is your brand."
+        "title": "線上排隊系統",
+        "development": "咖啡或茶，為流行病而戰。 我們的線上排隊系統可以幫助保持距離。"
       },
       "serviceSliders2": {
-        "title": "Public Relations",
-        "development": "The key obstacle to reforming aid is public opinion.. Public opinion drives them into the 'I care' photo opportunities that dominate aid."
+        "title": "SMS 短信通知",
+        "development": "系統自動發送SMS短信通知客戶返回中心。"
       },
       "serviceSliders3": {
-        "title": "Event Marketing",
-        "development": "When you are networking you are doing more than just marketing your business; you are marketing yourself."
+        "title": "實時監督",
+        "development": "隨時隨地，監控排隊和櫃檯狀態。"
       },
       "serviceSliders4": {
-        "title": "Advertising",
-        "development": "Advertising scientifically worked presented itself thus as the great new force. It really does thething, you know."
+        "title": "大數據收集與分析",
+        "development": "收集有價值的大數據用於報告和分析。"
       },
       "serviceSliders5": {
-        "title": "Direct Mail",
-        "development": "Have you realized MacRyrie asked her, that you're just like Novikov but with more charm and no OCD?"
+        "title": "一個系統多個分店",
+        "development": "支持多分店。集中設置，包括員工登錄、監督、訪問數據以在分店機構之間進行分析等。"
+      },
+      "serviceSliders6": {
+        "title": "一張票 引導多櫃枱",
+        "development": "例如，為您的中心設置流程，一張票排隊等待 資訊櫃枱 -> 收銀櫃枱"
+      },
+      "serviceSliders7": {
+        "title": "語音播報",
+        "development": "支持廣東話、英語、普通話和葡萄牙語語音播報，確保任何人都能以熟悉的語言收到通知"
+      },
+      "serviceSliders8": {
+        "title": "缺紙提示",
+        "development": "紙張用完前通知警告，確保連續打印"
       }
     }, 
   
