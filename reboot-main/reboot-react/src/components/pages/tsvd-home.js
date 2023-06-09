@@ -25,8 +25,8 @@ const TsvdHome = ({ header }) => {
        
       <Herov2 isBg="yes" />
       <Aboutv2 isBg="" aboutData={aboutv2} /> 
-      {/* <Herov5 isBg="yes" />      
-      <QuickOverview isBg="yes" /> */}
+      {/* <Herov5 isBg="yes" />       */}
+      {/* <QuickOverview isBg="yes" /> */}
       <Servicev2 isBg="yes" />
       <Projects isBg="" />
       <AppFeatures isBg="yes" />

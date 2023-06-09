@@ -79,7 +79,7 @@ const Herov5 = ({ isBg }) => {
     
     <section
       className={`hero section-padding2 ${isBg === "yes" ? "bg-one" : ""}`}
-      id="tsfeatures"
+      id="herov5"
     >
       <div className="container">
         <div className="row gx-xl-5 align-items-center">

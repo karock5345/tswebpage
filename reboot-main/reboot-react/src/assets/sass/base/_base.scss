@@ -109,12 +109,12 @@ img {
 [class*='section-title-'] {
   text-transform: capitalize;
   h3 {
-    font-size: 40px;
+    font-size: 35px;
     @include respond(tablet) {
-      font-size: 35px;
+      font-size: 28px;
     }
     @include respond(phone) {
-      font-size: 32px;
+      font-size: 25px;
     }
   }
 }

@@ -19,7 +19,7 @@ const Servicev2 = ({ isBg }) => {
   return (
     // <!-- ========== Service section start ========== -->
     <section
-      id="service"
+      id="tsfeatures"
       className={`section-padding serviceslider ${
         isBg === "yes" ? "bg-one" : ""
       }`}
