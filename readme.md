@@ -1,3 +1,40 @@
+# Stop showing "CRM"
+> reboot-main > reboot-react > public > locales > en > translation.json > whatWeDo > itemList1
+```json
+    "itemList1": {
+      "1": "TV wall",
+      "2": "CRM",
+      "3": "Online shop",
+      "4": "IOT"
+    },
+```
+## changed to :
+```json
+    "itemList1": {
+      "1": "TV wall",
+      "2": "",
+      "3": "Online shop",
+      "4": "IOT"
+    },
+```
+> reboot-main > reboot-react > public > locales > tc > translation.json > whatWeDo > itemList1
+```json
+      "itemList1": {
+        "1": "專業電視牆方案",
+        "2": "客戶關係管理系統",
+        "3": "網上商店",
+        "4": "物聯網"
+      },
+```
+## changed to :
+```json
+      "itemList1": {
+        "1": "專業電視牆方案",
+        "2": "",
+        "3": "網上商店",
+        "4": "物聯網"
+      },
+```
 The HTML (React) template is bought from monstertemplate.com
 
 # Setup development env:
