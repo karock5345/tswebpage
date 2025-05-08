@@ -5,9 +5,12 @@ import LocaleContext from "../LocaleContext";
 import { Trans } from "react-i18next";
 import { Link } from "react-scroll";
 import { socialLink, mailchimpLink } from "../global";
-
+import dataf from "../data/footer.json";
 
 const Herov2 = ({ isBg }) => {
+  const { footerv2 } = dataf;
+  const { email } = footerv2;
+  const { number } = footerv2;
   const { herov2 } = data;
   const {
     title,
@@ -73,10 +76,30 @@ const Herov2 = ({ isBg }) => {
                   <Trans i18nKey="herov2.whatsapp">wa:</Trans>
                 </h4> */}
                 {/* <ul className="footer__social-icon"> */}
+
+                <ul className="">
+                  <li>
+                    <a
+                      rel="noreferrer"
+                      // target="_blank"
+                      href={`tel:${number.text}`}
+                      className="btn__primary2 btn-md smooth"
+                    >
+                      <span>
+                        <i className="icofont-phone icofont-1x" ></i>&nbsp;&nbsp;&nbsp;<Trans i18nKey="herov2.phone"></Trans>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+
+
                 <ul className="">
                   {socialLink.whatsapp === "" ? (
                       ""
                     ) : (
+
+
+                      
                       <li>
                         <a
                           rel="noreferrer"
@@ -85,13 +108,31 @@ const Herov2 = ({ isBg }) => {
                           className="btn__primary2 btn-md smooth"
                         >
                           <span>
-                          <i className="icofont-brand-whatsapp icofont-1x" ></i>&nbsp;&nbsp;&nbsp;<Trans i18nKey="herov2.whatsapp">wa:</Trans>
+                          <i className="icofont-brand-whatsapp icofont-1x" ></i>&nbsp;&nbsp;&nbsp;<Trans i18nKey="herov2.whatsapp"></Trans>
                           </span>
                         </a>
                       </li>
                     )}
 
                 </ul>
+
+                <ul className="">          
+                  <li>
+                    <a
+                      rel="noreferrer"
+                      // target="_blank"
+                      href={`mailto:${email.text}`}
+                      className="btn__primary2 btn-md smooth"
+                    >
+                      <span>
+                        <i className="icofont-mail icofont-1x" ></i>&nbsp;&nbsp;&nbsp;{email.text}
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+
+
+
              </div>
 
 

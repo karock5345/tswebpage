@@ -86,7 +86,7 @@ const Footerv2 = () => {
               <div className="col-sm-6 col-lg-3 mb-4 mb-lg-0">
                 <h4 className="mb-4">
                   
-                  <Trans i18nKey="footerv2.number">{number.title}</Trans>
+                  <Trans i18nKey="footerv2.number">{number.title}:</Trans>
                 </h4>
                 <a rel="noreferrer" href={`tel:${number.text}`}>{number.text}</a>
               </div>
