@@ -102,6 +102,12 @@ const Footerv2 = () => {
                 </h4>
                 <p>{location.text}</p>
               </div>
+              <div className="col-sm-6 col-lg-3 mb-4 mb-md-0">
+                <h4 className="mb-4">
+                  <Trans>Privacy Polity</Trans>
+                </h4>
+                <p><a href="wa_privacy_polity.html">Whatsapp APP</a></p>
+              </div>              
               {/* <div className="col-sm-6 col-lg-3">
                 <h4 className="mb-4">
                   <Trans i18nKey="footerv2.follow">Follow us:</Trans>
