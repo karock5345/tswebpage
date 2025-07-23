@@ -29,6 +29,33 @@ function App() {
   const [locale, setLocale] = useState(i18n.language);
   i18n.on("languageChanged", (lng) => setLocale(i18n.language));
 
+  // --- Add this effect ---
+  // This effect ensures that the navbar links close the menu on click for mobile view
+  // It waits for the navbar to render before adding the click event listeners
+  // This is necessary to ensure the navbar is fully loaded before we try to access its elements
+  // This is particularly useful for mobile devices where the navbar is toggled
+  useEffect(() => {
+  const timeout = setTimeout(() => {
+    const navbar = document.getElementById("navbarSupportedContent");
+    const toggleBtn = document.querySelector('[aria-controls="navbarSupportedContent"]');
+    if (navbar && toggleBtn) {
+      const links = navbar.querySelectorAll("a.nav-link");
+      const handleClick = () => {
+        if (window.innerWidth < 992) {
+          toggleBtn.click();
+        }
+      };
+      links.forEach(link => link.addEventListener("click", handleClick));
+      // Cleanup
+      return () => {
+        links.forEach(link => link.removeEventListener("click", handleClick));
+      };
+    }
+  }, 500); // Wait 500ms for navbar to render
+  return () => clearTimeout(timeout);
+}, []);
+  // --- End effect ---
+
   const {
     headerBusiness,
     headerIt,
