@@ -473,7 +473,139 @@ img {
 
 .dark-bg {
   background-color: $color-secondary;
+  color: $color-light;
+  
+  // Card styling for dark background
+  .card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: $color-light;
+    
+    .card-title {
+      color: $color-light;
+    }
+    
+    .card-text {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.08);
+    }
+  }
+  
+  // Section title styling
+  .section-title {
+    h2, h3, h4, h5, h6 {
+      color: $color-light;
+    }
+    
+    p {
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+  
+  // Testimonial styling
+  .testimonialv2__contnet--single {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    
+    .testimonialv2__contnet--info--about {
+      h4 {
+        color: $color-light;
+      }
+      
+      span {
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+    
+    .testimonialv2__contnet--quote p {
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+  
+  // Generic text elements
+  h1, h2, h3, h4, h5, h6 {
+    color: $color-light;
+  }
+  
+  p {
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .text-muted {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
 }
+
+// Light theme overrides - make dark-bg sections use light backgrounds
+.theme-light {
+  .dark-bg {
+    background-color: $color-tertiary;
+    color: $color-gray;
+    
+    .card {
+      background-color: $color-light;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      color: $color-gray;
+      
+      .card-title {
+        color: $color-dark-primary;
+      }
+      
+      .card-text {
+        color: $color-gray;
+      }
+      
+      &:hover {
+        background-color: #f8f9fa;
+      }
+    }
+    
+    .section-title {
+      h2, h3, h4, h5, h6 {
+        color: $color-dark-primary;
+      }
+      
+      p {
+        color: $color-gray;
+      }
+    }
+    
+    .testimonialv2__contnet--single {
+      background-color: $color-light;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      
+      .testimonialv2__contnet--info--about {
+        h4 {
+          color: $color-dark-primary;
+        }
+        
+        span {
+          color: $color-gray;
+        }
+      }
+      
+      .testimonialv2__contnet--quote p {
+        color: $color-gray;
+      }
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      color: $color-dark-primary;
+    }
+    
+    p {
+      color: $color-gray;
+    }
+    
+    .text-muted {
+      color: #6c757d !important;
+    }
+  }
+}
+
 .dark-text {
   background-color: $color-dark-primary;
 }
@@ -612,5 +744,18 @@ img {
     }
     .swiper-pagination-bullet-active {
       background-color: $color-primary;
+    }
+    
+    // Dark theme specific overrides for dark-bg sections
+    .dark-bg {
+      background-color: #0a0e1a;
+      
+      .card {
+        background-color: rgba(255, 255, 255, 0.03);
+        
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.06);
+        }
+      }
     }
 }

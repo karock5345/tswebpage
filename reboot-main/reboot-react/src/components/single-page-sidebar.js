@@ -3,10 +3,17 @@ import data from "../data/single-page-sidebar.json";
 import { Trans, useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
-const SinglePageSidebar = () => {
+const SinglePageSidebar = ({ onCategorySelect, selectedCategory, onSearch, searchQuery }) => {
   const { t } = useTranslation();
   const { sidebar } = data;
   const { title1, title2, category } = sidebar;
+  
+  const handleSearchChange = (e) => {
+    if (onSearch) {
+      onSearch(e.target.value);
+    }
+  };
+  
   return (
     <div className="sidebar">
       <div className="sidebar__search-box">
@@ -15,12 +22,12 @@ const SinglePageSidebar = () => {
         </h3>
         <hr />
         <div className="form">
-          <input type="text" placeholder={t("sidebar.search")} />
-          <Link to="blog-details" className="btn__primary">
-            <span>
-              <Trans i18nKey="sidebar.button">Search</Trans>
-            </span>
-          </Link>
+          <input 
+            type="text" 
+            placeholder={t("sidebar.search")} 
+            value={searchQuery || ''}
+            onChange={handleSearchChange}
+          />
         </div>
       </div>
       <div className="sidebar__category-box">
@@ -31,9 +38,18 @@ const SinglePageSidebar = () => {
         <ul>
           {category.map((data, i) => (
             <li key={i}>
-              <Link to="/blog-details">
+              <a 
+                href="#" 
+                onClick={(e) => {
+                  e.preventDefault();
+                  if (onCategorySelect) {
+                    onCategorySelect(data.tag);
+                  }
+                }}
+                className={selectedCategory === data.tag ? 'active' : ''}
+              >
                 <Trans i18nKey={`sidebar.category${i + 1}`}>{data.name}</Trans>
-              </Link>
+              </a>
             </li>
           ))}
         </ul>

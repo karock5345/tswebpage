@@ -1,0 +1,234 @@
+{
+  "bookingHero": {
+    "subtitle": "APPOINTMENTS & BOOKING SYSTEM",
+    "title": "Transform Your Clinic Operations with Smart Booking",
+    "description": "Designed specifically for clinics supporting automatic multi-queue flow for Diagnostics, Treatments, Pharmacy, and Payment. Streamline operations and improve customer satisfaction.",
+    "badge": {
+      "title": "Projects",
+      "counterNumber": "300"
+    },
+    "image1": "assets/images/ts_hero/booking1.png",
+    "image2": "assets/images/ts_hero/iphone_eTicket_short.png",
+    "image3": "assets/images/ts_hero/tv500x400_2.png",
+    "contactPhone": "+852 27578547",
+    "contactWhatsApp": "+852 5722 5345",
+    "contactEmail": "sales@tsvd.com.hk"
+  },
+  "bookingFeatures": {
+    "title": "Powerful Features for Modern Clinics",
+    "subtitle": "KEY FEATURES",
+    "features": [
+      {
+        "id": 1,
+        "icon": "icofont-globe",
+        "title": "Online System",
+        "description": "The online system helps maintain distance and prevent the spread of illnesses."
+      },
+      {
+        "id": 2,
+        "icon": "icofont-doctor-alt",
+        "title": "Clinic Multi-Queue Support",
+        "description": "Automatic multi-queue flow designed for Diagnostics, Treatments, Pharmacy, and Payment processes"
+      },
+      {
+        "id": 3,
+        "icon": "icofont-clock-time",
+        "title": "Save Staff Time",
+        "description": "Automate appointment scheduling and queue management to reduce manual work and administrative burden"
+      },
+      {
+        "id": 4,
+        "icon": "icofont-ui-touch-phone",
+        "title": "User-Friendly Interface",
+        "description": "Intuitive design for both customers and staff ensuring easy adoption and efficient operations"
+      },
+      {
+        "id": 5,
+        "icon": "icofont-heart-beat",
+        "title": "Improve Customer Satisfaction",
+        "description": "Reduce waiting times and provide better patient experience with organized queue management"
+      },
+      {
+        "id": 6,
+        "icon": "icofont-calendar",
+        "title": "24/7 Online Booking",
+        "description": "Customers can book appointments anytime, anywhere through web or mobile interface"
+      },
+      {
+        "id": 7,
+        "icon": "icofont-notification",
+        "title": "Automated Reminders",
+        "description": "Reduce no-shows with SMS, WhatsApp, and Email reminders sent automatically before appointments"
+      },
+      {
+        "id": 8,
+        "icon": "icofont-link",
+        "title": "Queue System Integration",
+        "description": "Fully integrated with our professional queuing system for seamless patient flow management"
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Simple & Efficient Process",
+    "subtitle": "HOW IT WORKS",
+    "description": "Our booking system streamlines the entire appointment workflow from scheduling to confirmation",
+    "note": "Get started today and experience the difference in your clinic operations",
+    "steps": [
+      {
+        "id": 1,
+        "number": "01",
+        "title": "Auto-Generate Schedules",
+        "description": "System automatically generates optimal appointment schedules based on clinic availability and staff capacity",
+        "image": "assets/images/b_temp_small.png"
+      },
+      {
+        "id": 2,
+        "number": "02",
+        "title": "Online Booking",
+        "description": "Customers book appointments online through web or mobile interface at their convenience",
+        "image": "assets/images/b_onlinebooking_small.png"
+      },
+      {
+        "id": 3,
+        "number": "03",
+        "title": "Staff Confirmation",
+        "description": "Staff review and confirm appointments, make adjustments if needed, and prepare for patient visits",
+        "image": "assets/images/b_confirm_small.png"
+      },
+      {
+        "id": 4,
+        "number": "04",
+        "title": "Automated Reminders",
+        "description": "System sends automated reminders via SMS, WhatsApp, and Email to reduce no-shows and improve attendance",
+        "image": "assets/images/b_reminder_small.png"
+      }
+    ]
+  },
+  "advancedFeatures": {
+    "title": "Advanced Queue Management",
+    "subtitle": "POWERFUL CAPABILITIES",
+    "serviceSliders": [
+      {
+        "id": 1,
+        "image": "assets/images/ts_features/f03-super.png",
+        "title": "Organize All Check-ins",
+        "description": "Manage and organize all checked-in customers in a centralized dashboard. Track patient status in real-time across Diagnostics, Treatments, Pharmacy, and Payment queues."
+      },
+      {
+        "id": 2,
+        "image": "assets/images/ts_features/f06-route.png",
+        "title": "Auto-Generate Service Order",
+        "description": "Automatically generate the optimal service order based on check-in time, appointment priority, and clinic workflow. Ensure fair and efficient patient flow throughout the facility."
+      },
+      {
+        "id": 3,
+        "image": "assets/images/ts_features/f04-report.png",
+        "title": "Real-Time Status Updates",
+        "description": "Provide real-time updates to patients on their queue position and estimated wait time. Keep everyone informed and reduce anxiety in the waiting area."
+      }
+    ],
+    "note": "Contact our team to learn more about advanced features tailored to your clinic needs"
+  },
+  "bookingCustomers": {
+    "title": "Trusted by Leading Organizations",
+    "subtitle": "OUR CUSTOMERS",
+    "description": "We are proud to serve government departments, healthcare facilities, and service centers across Hong Kong",
+    "customerProjects": [
+      {
+        "id": 1,
+        "image": "assets/images/blog/hong-kong-permit-office-1024x768.jpg",
+        "title": "Public organization",
+        "tag": "Hong Kong International Airport"
+      },
+      {
+        "id": 2,
+        "image": "assets/images/blog/lg.jpg",
+        "title": "International Electronics Corporation",
+        "tag": "LG Electronics"
+      },
+      {
+        "id": 3,
+        "image": "assets/images/QualityHealthcare.png",
+        "title": "Healthcare",
+        "tag": "Quality Healthcare Medical Center"
+      },
+      {
+        "id": 4,
+        "image": "assets/images/blog/gia.jpg",
+        "title": "A globally recognized brand",
+        "tag": "GIA Laboratories"
+      },
+      {
+        "id": 5,
+        "image": "assets/images/blog/ikea.png",
+        "title": "One of the world’s largest corporations",
+        "tag": "IKEA"
+      },
+      {
+        "id": 6,
+        "image": "assets/images/blog/madaz-1024x768.jpg",
+        "title": "Japanese automotive manufacturer",
+        "tag": "Mazda"
+      }
+    ],
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "subtitle": "CLIENT TESTIMONIALS",
+      "image": "assets/images/testimonial/testimonial-2.jpg",
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Dr. Anya Wong",
+          "title": "Clinic Director",
+          "image": "assets/images/Anya.png",
+          "description": "The booking system has transformed our clinic operations. We've reduced no-shows by 40% and our staff can focus more on patient care rather than administrative tasks."
+        },
+        {
+          "id": 2,
+          "name": "Michael Chan",
+          "title": "Operations Manager",
+          "image": "assets/images/Michael.jpg",
+          "description": "Excellent integration with our existing queue management system. The automated reminders via WhatsApp have been particularly effective in improving appointment attendance."
+        },
+        {
+          "id": 3,
+          "name": "Linda Lee",
+          "title": "Healthcare Administrator",
+          "image": "assets/images/Linda.png",
+          "description": "User-friendly interface for both patients and staff. The multi-queue flow for diagnostics, treatment, pharmacy, and payment has streamlined our entire workflow significantly."
+        }
+      ]
+    }
+  },
+  "bookingContact": {
+    "title": "Get Started Today",
+    "subtitle": "CONTACT US",
+    "description": "Ready to transform your clinic operations? Contact our team for a consultation and see how our booking system can work for you.",
+    "contactInfo": [
+      {
+        "id": 1,
+        "icon": "icofont-phone",
+        "title": "Phone",
+        "text": "+852 27578547"
+      },
+      {
+        "id": 2,
+        "icon": "icofont-brand-whatsapp",
+        "title": "WhatsApp",
+        "text": "+852 5722 5345"
+      },
+      {
+        "id": 3,
+        "icon": "icofont-email",
+        "title": "Email",
+        "text": "sales@tsvd.com.hk"
+      },
+      {
+        "id": 4,
+        "icon": "icofont-location-pin",
+        "title": "Address",
+        "text": "Room A7, 7/F, Blk A, Proficient Industrial Centre, 6 Wang Kwun Road, Kowloon Bay, Hong Kong"
+      }
+    ]
+  }
+}

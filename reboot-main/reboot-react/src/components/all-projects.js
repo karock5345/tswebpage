@@ -1,10 +1,31 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import data from "../data/all-projects.json";
 import { Trans } from "react-i18next";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const AllProjects = ({ title }) => {
   const { allProject } = data;
+  const location = useLocation();
+  const hasScrolled = useRef(false);
+
+  useEffect(() => {
+    // Scroll to the specific project row if scrollToRow state is provided
+    if (location.state?.scrollToRow !== undefined && !hasScrolled.current) {
+      hasScrolled.current = true;
+      const projectsSection = document.getElementById("projects");
+      
+      if (projectsSection) {
+        // Add a small delay to ensure DOM is fully rendered
+        setTimeout(() => {
+          projectsSection.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 300);
+      }
+    } else if (!location.state?.scrollToRow) {
+      // Reset the flag when navigating without scrollToRow
+      hasScrolled.current = false;
+    }
+  }, [location.state?.scrollToRow]);
+
   return (
     <>
       <div className="blog-hero bg-one">

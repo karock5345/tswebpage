@@ -1,0 +1,292 @@
+// About Us Page Styles
+
+.about-us-hero {
+  padding-top: 120px !important;
+  padding-bottom: 60px !important;
+  
+  h1 {
+    color: $color-secondary;
+  }
+}
+
+// Who We Are Section
+.about-us-who-we-are {
+  .section-title {
+    margin-bottom: 40px;
+  }
+}
+
+// Our Expertise Section
+.about-us-expertise {
+  .expertise-card {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+      border-color: $color-primary;
+    }
+    
+    .icon-wrapper {
+      i {
+        color: $color-primary;
+        background: linear-gradient(135deg, rgba($color-primary, 0.1) 0%, rgba($color-primary, 0.05) 100%);
+        width: 80px;
+        height: 80px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+      }
+    }
+    
+    &:hover .icon-wrapper i {
+      background: linear-gradient(135deg, rgba($color-primary, 0.2) 0%, rgba($color-primary, 0.1) 100%);
+      transform: scale(1.1);
+    }
+    
+    h4 {
+      color: $color-secondary;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    
+    p {
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+  }
+}
+
+// Why Choose Us Section
+.about-us-why-choose {
+  .why-choose-card {
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    
+    &:hover {
+      border-color: $color-primary;
+      background: $color-light !important;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    }
+    
+    .icon-wrapper {
+      i {
+        font-size: 4rem !important;
+        transition: all 0.3s ease;
+      }
+    }
+    
+    &:hover .icon-wrapper i {
+      transform: scale(1.15);
+    }
+    
+    h5 {
+      color: $color-secondary;
+      font-weight: 600;
+      font-size: 1.25rem;
+    }
+    
+    p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+  }
+}
+
+// Track Record Section
+.about-us-track-record {
+  background: linear-gradient(135deg, $color-primary 0%, darken($color-primary, 10%) 100%);
+  
+  .track-record-card {
+    h2 {
+      font-weight: 700;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.9) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    p {
+      opacity: 0.95;
+      font-weight: 400;
+    }
+  }
+}
+
+// Trusted By Section
+.about-us-trusted {
+  .industry-card {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    
+    &:hover {
+      background: $color-light !important;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+      border-color: $color-primary;
+      
+      i {
+        transform: scale(1.2);
+      }
+    }
+    
+    i {
+      transition: all 0.3s ease;
+    }
+    
+    h6 {
+      color: $color-secondary;
+      font-weight: 500;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+// Dark Theme Styles
+.theme-dark {
+  .about-us-hero {
+    background: $color-dark-primary !important;
+    
+    h1 {
+      color: $color-light !important;
+    }
+    
+    .lead, .text-muted {
+      color: rgba($color-light, 0.8) !important;
+    }
+  }
+
+  .about-us-who-we-are {
+    background: $color-secondary !important;
+  }
+  
+  .about-us-expertise {
+    background: $color-secondary !important;
+    
+    .expertise-card {
+      background: $color-dark-primary !important;
+      border-color: rgba($color-light, 0.1) !important;
+      
+      &:hover {
+        border-color: $color-primary !important;
+      }
+      
+      h4 {
+        color: $color-light !important;
+      }
+      
+      p, .text-muted {
+        color: rgba($color-light, 0.7) !important;
+      }
+    }
+  }
+  
+  .about-us-why-choose {
+    background: $color-dark-primary !important;
+    
+    .why-choose-card {
+      background: $color-secondary !important;
+      
+      &:hover {
+        background: lighten($color-secondary, 5%) !important;
+      }
+      
+      h5 {
+        color: $color-light !important;
+      }
+      
+      p, .text-muted {
+        color: rgba($color-light, 0.7) !important;
+      }
+    }
+  }
+  
+  .about-us-trusted {
+    background: $color-dark-primary !important;
+    
+    .industry-card {
+      background: $color-secondary !important;
+      border-color: rgba($color-light, 0.1) !important;
+      
+      &:hover {
+        background: lighten($color-secondary, 5%) !important;
+      }
+      
+      h6 {
+        color: $color-light !important;
+      }
+    }
+  }
+}
+
+// Responsive Adjustments
+@media (max-width: 991px) {
+  .about-us-hero {
+    padding-top: 100px !important;
+    
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+  
+  .about-us-expertise {
+    .expertise-card {
+      h4 {
+        font-size: 1.3rem;
+      }
+    }
+  }
+  
+  .about-us-track-record {
+    .track-record-card {
+      h2 {
+        font-size: 3rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .about-us-hero {
+    padding-top: 80px !important;
+    
+    h1 {
+      font-size: 2rem;
+    }
+    
+    .lead {
+      font-size: 1rem;
+    }
+  }
+  
+  .about-us-expertise,
+  .about-us-why-choose,
+  .about-us-trusted {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+  
+  .about-us-track-record {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    
+    .track-record-card {
+      h2 {
+        font-size: 2.5rem;
+      }
+      
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+  
+  .about-us-trusted {
+    .industry-card {
+      margin-bottom: 1rem;
+    }
+  }
+}

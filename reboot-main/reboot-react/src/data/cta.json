@@ -9,7 +9,7 @@
     "bgImage": "assets/images/it-solution-cta.webp",
     "title": "We Run All Kind Of IT Services.",
     "description": "While Other People May Not Know, In My Case, If I Just Had The Time, I'd Be Buried Over My Head In Things I'd Want To Do. I Don't Have The Time To Not Think About Things I Need Or Want.",
-    "button": "Let's Talk",
+    "button": "Whatsapp",
     "counterCards": [
       {
         "number": 18,
@@ -26,22 +26,27 @@
     ]
   },
   "ctav3" : {
-    "image": "assets/images/cta.webp",
-    "title": "Call Us 24/7",
-    "number": "(+887) 158795145",
-    "description": "We do know that what we call insurance is changing, with a steady growth of high deductible plans and more cost sharing for consumers.",
-    "button": "Let's Talk",
+    "image": "assets/images/robotcs.png",
+    "title": "Whatsapp our AI Robot 24/7",
+    "number": "WA ID: (+852) 5722 5345",
+    "description": "We know that technology is constantly evolving, and TS v-development Limited stays ahead with innovative solutions and cutting-edge development services for our clients.",
+    "button": "Whatsapp",
+    "button2": "Email",
+    "email": "sales@tsvd.com.hk",
     "counterCards": [
       {
-        "number": 60,
+        "number": 100,
+        "suffix": "%",
         "title": "Happy Clients"
       },
       {
-        "number": 40,
+        "number": 120,
+        "suffix": "+",
         "title": "companies"
       },
       {
-        "number": 220,
+        "number": 300,
+        "suffix": "+",
         "title": "Project Done"
       }
     ]

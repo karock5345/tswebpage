@@ -51,7 +51,7 @@ const Servicev2 = ({ isBg }) => {
                 <SwiperSlide key={i} className="pb-3">
                   <div className="service__item translateEffect2">
                     <div className="row align-items-center">
-                      <div className="col-sm-4 p-0">
+                      <div className="col-sm-6 p-0">
                         <div className="service__item-img">
                           <img
                             className="img-fluid"
@@ -60,7 +60,7 @@ const Servicev2 = ({ isBg }) => {
                           />
                         </div>
                       </div>
-                      <div className="col-sm-8 p-0">
+                      <div className="col-sm-6 p-0">
                         <div className="service__item-content">
                           <div className="service__icon">
                             <i className={`${serviceSlider.icon}`}></i>

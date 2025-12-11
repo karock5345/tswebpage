@@ -1,8 +1,8 @@
-import { default as React, useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { Navbar } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { GoChevronDown } from "react-icons/go";
-import { Link as PageLink } from "react-router-dom";
+import { Link as PageLink, useLocation } from "react-router-dom";
 import { Link } from "react-scroll";
 import i18n from "../../i18n";
 import LocaleContext from "../../LocaleContext";
@@ -11,7 +11,10 @@ import { siteLogo } from "../../global";
 
 const HeaderTS = ({ header }) => {
   const { t } = useTranslation();
-  const { locale } = useContext(LocaleContext);  
+  const { locale } = useContext(LocaleContext);
+  const location = useLocation();
+  const isHomePage = location.pathname === "/" || location.pathname === "/tsvd-home";
+  
   function changeLocale(l) {
     if (locale !== l) {
       i18n.changeLanguage(l);
@@ -20,47 +23,71 @@ const HeaderTS = ({ header }) => {
 
   const [isActive, setActive] = useState(false);
   const [fix, setFix] = useState(false);
+  
   const handleToggle = () => {
     setActive(!isActive);
   };
-  function setFixed() {
+
+  const closeMobileMenu = () => {
+    setActive(false);
+    // Also collapse Bootstrap navbar
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const navbarCollapse = document.querySelector('.navbar-collapse');
+    if (navbarToggler && navbarCollapse && navbarCollapse.classList.contains('show')) {
+      navbarToggler.click();
+    }
+  };
+  
+  const setFixed = () => {
     if (window.scrollY >= 100) {
       setFix(true);
     } else {
       setFix(false);
     }
-  }
+  };
 
   const [dark, setDark] = useState(false);
-  function setTheme(themeName) {
+
+  const setTheme = (themeName) => {
     localStorage.setItem("reboot_theme", themeName);
     document.documentElement.className = themeName;
-  }
-  function toggleTheme() {
-    if (localStorage.getItem("reboot_theme") === "theme-dark") {
+  };
+
+  const toggleTheme = () => {
+    if (dark) {
       setTheme("theme-light");
+      setDark(false);
     } else {
       setTheme("theme-dark");
+      setDark(true);
     }
-  }
-  (function () {
-    
-    // if (localStorage.getItem("reboot_theme") === "theme-dark") {
-    //   setTheme("theme-dark");
-    //   setDark.checked = false;
-    // } else {
-    //   setTheme("theme-light");
-    //   setDark.checked = true;
-    // }
-    if (localStorage.getItem("reboot_theme") === "theme-light") {
-      setTheme("theme-light");
-      setDark.checked = true;
+    closeMobileMenu();
+  };
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("reboot_theme");
+    if (savedTheme === "theme-dark") {
+      document.documentElement.className = "theme-dark";
+      setDark(true);
+    } else if (savedTheme === "theme-light") {
+      document.documentElement.className = "theme-light";
+      setDark(false);
     } else {
-      setTheme("theme-dark");
-      setDark.checked = false;
+      document.documentElement.className = "theme-dark";
+      setDark(true);
     }
-  })();
-  window.addEventListener("scroll", setFixed);
+
+    const handleScroll = () => {
+      if (window.scrollY >= 100) {
+        setFix(true);
+      } else {
+        setFix(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
 
 
@@ -75,7 +102,7 @@ const HeaderTS = ({ header }) => {
               <Link
               activeClass="active"
               className="benefits nav-link"
-              onClick={() => i18n.changeLanguage("tc")}
+              onClick={() => { i18n.changeLanguage("tc"); closeMobileMenu(); }}
               spy={true}
               isDynamic={false}
               hashSpy={false}
@@ -92,7 +119,6 @@ const HeaderTS = ({ header }) => {
             </li>
           </li>
         );
-        break;      
       case "tc":
         return (
           <li className="nav-item">
@@ -102,7 +128,7 @@ const HeaderTS = ({ header }) => {
               <Link
               activeClass="active"
               className="benefits nav-link"
-              onClick={() => i18n.changeLanguage("en")}
+              onClick={() => { i18n.changeLanguage("en"); closeMobileMenu(); }}
               spy={true}
               isDynamic={false}
               hashSpy={false}
@@ -119,7 +145,6 @@ const HeaderTS = ({ header }) => {
             </li>
           </li>
         );
-        break;
     }
   };
 
@@ -150,11 +175,46 @@ const HeaderTS = ({ header }) => {
                     : "navbar-nav menu ms-lg-auto"
                 }
               >
-                {/* <li className="nav-item dropdown submenu">
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <li className="nav-item">
+                  <PageLink
+                    className="benefits nav-link"
+                    to="/about"
+                  >
+                    <Trans i18nKey="headerTS.about.title">
+                      ABOUT
+                    </Trans>
+                  </PageLink>
+                </li>
+
+                <li className="nav-item">
+                  <PageLink
+                    className="benefits nav-link"
+                    to={header.jobreferences.link}
+                  >
+                    <Trans i18nKey="headerTS.jobreferences.title">
+                      {header.jobreferences.title}
+                    </Trans>
+                  </PageLink>
+                </li>
+                {/* Desktop dropdown */}
+                <li className="nav-item dropdown submenu d-none d-lg-block">
                   <Link
                     activeClass="active"
                     className="nav-link scroll dropdown-toggle"
-                    to={header.home.link}
+                    to={header.tsothers.link}
                     spy={true}
                     isDynamic={false}
                     hashSpy={false}
@@ -165,204 +225,36 @@ const HeaderTS = ({ header }) => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    <Trans i18nKey="headerTS.home.title">
-                      {header.home.title}
+                    <Trans i18nKey="headerTS.tsothers.title">
+                      {header.tsothers.title}
                     </Trans>
-
-                    <span onClick={handleToggle} className="sub-menu-toggle">
-                      <GoChevronDown />
-                    </span>
                   </Link>
-                  <ul
-                    className={
-                      isActive ? "dropdown-menu show" : "dropdown-menu"
-                    }
-                  >
+                  <ul className="dropdown-menu">
                     <li className="nav-item">
                       <PageLink
-                        to={header.home.dropdownItem1.link}
+                        to={header.tsothers.dropdownItem1.link}
                         className="nav-link"
                       >
-                        <Trans i18nKey="headerTS.home.dropdownItem1">
-                          {header.home.dropdownItem1.title}
+                        <Trans i18nKey="headerTS.tsothers.dropdownItem1">
+                          {header.tsothers.dropdownItem1.title}
                         </Trans>
                       </PageLink>
                     </li>
                     <li className="nav-item">
                       <PageLink
-                        to={header.home.dropdownItem2.link}
+                        to={header.tsothers.dropdownItem2.link}
                         className="nav-link"
                       >
-                        <Trans i18nKey="headerTS.home.dropdownItem2">
-                          {header.home.dropdownItem2.title}
+                        <Trans i18nKey="headerTS.tsothers.dropdownItem2">
+                          {header.tsothers.dropdownItem2.title}
                         </Trans>
                       </PageLink>
                     </li>
-                    <li className="nav-item">
-                      <PageLink
-                        to={header.home.dropdownItem3.link}
-                        className="nav-link"
-                      >
-                        <Trans i18nKey="headerTS.home.dropdownItem3">
-                          {header.home.dropdownItem3.title}
-                        </Trans>
-                      </PageLink>
-                    </li>
-                    <li className="nav-item">
-                      <PageLink
-                        to={header.home.dropdownItem4.link}
-                        className="nav-link"
-                      >
-                        <Trans i18nKey="headerTS.home.dropdownItem4">
-                          {header.home.dropdownItem4.title}
-                        </Trans>
-                      </PageLink>
-                    </li>
-                    <li className="nav-item">
-                      <PageLink
-                        to={header.home.dropdownItem5.link}
-                        className="nav-link"
-                      >
-                        <Trans i18nKey="headerTS.home.dropdownItem5">
-                          {header.home.dropdownItem5.title}
-                        </Trans>
-                      </PageLink>
-                    </li>
-                    <li className="nav-item">
-                      <PageLink
-                        to={header.home.dropdownItem6.link}
-                        className="nav-link"
-                      >
-                        <Trans i18nKey="headerTS.home.dropdownItem6">
-                          {header.home.dropdownItem6.title}
-                        </Trans>
-                      </PageLink>
-                    </li>
-                    <li className="nav-item">
-                      <PageLink
-                        to={header.home.dropdownItem7.link}
-                        className="nav-link"
-                      >
-                        <Trans i18nKey="headerTS.home.dropdownItem7">
-                          {header.home.dropdownItem7.title}
-                        </Trans>
-                      </PageLink>
-                    </li>                    
                   </ul>
-                </li> */}
-
-
-
-
-
-
-
-
-
-
-                <li className="nav-item">
-                  <Link
-                    activeClass="active"
-                    className="benefits nav-link"
-                    to={header.home.link}                     
-                    spy={true}
-                    isDynamic={false}
-                    hashSpy={false}
-                    spyThrottle={500}
-                    smooth={true}
-                    duration={500}
-                    offset={-60}
-                  >
-                    <Trans i18nKey="headerTS.home.title">
-                      {header.home.title}
-                    </Trans>
-                  </Link>
                 </li>
 
-
-
-
-
-
-
-
-
-
-
-
-                <li className="nav-item">
-                  <Link
-                    activeClass="active"
-                    className="benefits nav-link"
-                    to={header.about.link}
-                    spy={true}
-                    isDynamic={false}
-                    hashSpy={false}
-                    spyThrottle={500}
-                    smooth={true}
-                    duration={500}
-                    offset={-60}
-                  >
-                    <Trans i18nKey="headerTS.about.title">
-                      {header.about.title}
-                    </Trans>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    activeClass="active"
-                    className="benefits nav-link"
-                    to={header.tsfeatures.link}
-                    spy={true}
-                    isDynamic={false}
-                    hashSpy={false}
-                    spyThrottle={500}
-                    smooth={true}
-                    duration={500}
-                    offset={-60}
-                  >
-                    <Trans i18nKey="headerTS.tsfeatures.title">
-                      {header.tsfeatures.title}
-                    </Trans>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    activeClass="active"
-                    className="benefits nav-link"
-                    to={header.project.link}
-                    spy={true}
-                    isDynamic={false}
-                    hashSpy={false}
-                    spyThrottle={500}
-                    smooth={true}
-                    duration={500}
-                    offset={-60}
-                  >
-                    <Trans i18nKey="headerTS.project.title">
-                      {header.project.title}
-                    </Trans>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    activeClass="active"
-                    className="benefits nav-link"
-                    to={header.tsfitfeature.link}
-                    spy={true}
-                    isDynamic={false}
-                    hashSpy={false}
-                    spyThrottle={500}
-                    smooth={true}
-                    duration={500}
-                    offset={-60}
-                  >
-                    <Trans i18nKey="headerTS.tsfitfeature.title">
-                      {header.tsfitfeature.title}
-                    </Trans>
-                  </Link>
-                </li>
-                <li className="nav-item">
+                {/* Mobile/Tablet - Show items directly */}
+                <li className="nav-item d-lg-none">
                   <Link
                     activeClass="active"
                     className="benefits nav-link"
@@ -379,6 +271,28 @@ const HeaderTS = ({ header }) => {
                       {header.tsothers.title}
                     </Trans>
                   </Link>
+                </li>
+                <li className="nav-item d-lg-none">
+                  <PageLink
+                    to={header.tsothers.dropdownItem1.link}
+                    className="nav-link ps-4"
+                    onClick={closeMobileMenu}
+                  >
+                    <Trans i18nKey="headerTS.tsothers.dropdownItem1">
+                      {header.tsothers.dropdownItem1.title}
+                    </Trans>
+                  </PageLink>
+                </li>
+                <li className="nav-item d-lg-none">
+                  <PageLink
+                    to={header.tsothers.dropdownItem2.link}
+                    className="nav-link ps-4"
+                    onClick={closeMobileMenu}
+                  >
+                    <Trans i18nKey="headerTS.tsothers.dropdownItem2">
+                      {header.tsothers.dropdownItem2.title}
+                    </Trans>
+                  </PageLink>
                 </li>
 
 
@@ -452,7 +366,8 @@ const HeaderTS = ({ header }) => {
                     <label id="switch" className="switch">
                       <input
                         type="checkbox"
-                        onChange={(e) => toggleTheme(dark)}
+                        checked={dark}
+                        onChange={toggleTheme}
                         id="slider"
                       />
                       <span className="slider round"></span>

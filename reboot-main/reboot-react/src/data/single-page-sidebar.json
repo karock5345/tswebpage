@@ -4,25 +4,24 @@
     "title2": "Category",
     "category": [
       {
-        "name": "Creative"
+        "name": "All Projects",
+        "tag": "all"
       },
       {
-        "name": "Marketing"
+        "name": "Booking System",
+        "tag": "Booking System"
       },
       {
-        "name": "Digital AI"
+        "name": "LED System",
+        "tag": "LED System"
       },
       {
-        "name": "Theme Upload"
+        "name": "LED Traffic System",
+        "tag": "LED Traffic System"
       },
       {
-        "name": "Software Marketing"
-      },
-      {
-        "name": "Agency"
-      },
-      {
-        "name": "Social Marketing"
+        "name": "Queuing System",
+        "tag": "Queuing System"
       }
     ]
   }

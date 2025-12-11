@@ -3,9 +3,12 @@ import { Spinner, ThemeProvider } from "react-bootstrap";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import AllBlog from "./components/pages/all-blog";
+import AllJobReference from "./components/pages/all-job-reference";
+import AboutUs from "./components/pages/about-us";
 import AllProject from "./components/pages/all-project";
 import AppsLanding from "./components/pages/apps-landing";
 import BlogDetail from "./components/pages/blog-detail";
+import BookingSystem from "./components/pages/booking-system";
 import TsvdHome from "./components/pages/tsvd-home";
 import BusinessSolution from "./components/pages/business-solution";
 import DigitalAgency from "./components/pages/digital-agency";
@@ -18,10 +21,21 @@ import i18n from "./i18n";
 import LocaleContext from "./LocaleContext";
 
 function ScrollToTop() {
-  const { pathname } = useLocation();
+  const { pathname, hash } = useLocation();
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+    if (hash) {
+      // If there's a hash, scroll to that element
+      setTimeout(() => {
+        const element = document.querySelector(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100);
+    } else {
+      // Otherwise scroll to top
+      window.scrollTo(0, 0);
+    }
+  }, [pathname, hash]);
   return null;
 }
 
@@ -39,7 +53,7 @@ function App() {
     const navbar = document.getElementById("navbarSupportedContent");
     const toggleBtn = document.querySelector('[aria-controls="navbarSupportedContent"]');
     if (navbar && toggleBtn) {
-      const links = navbar.querySelectorAll("a.nav-link");
+      const links = navbar.querySelectorAll(".nav-link");
       const handleClick = () => {
         if (window.innerWidth < 992) {
           toggleBtn.click();
@@ -116,8 +130,20 @@ function App() {
                   element={<AppsLanding header={headerApp} />}
                 />
                 <Route
+                  path="/booking-system"
+                  element={<BookingSystem header={headerTS} />}
+                />
+                <Route
                   path="/all-blog"
                   element={<AllBlog header={singlePageHeader} />}
+                />
+                <Route
+                  path="/projects"
+                  element={<AllJobReference header={headerTS} />}
+                />
+                <Route
+                  path="/about"
+                  element={<AboutUs header={headerTS} />}
                 />
                 <Route
                   path="/all-project"

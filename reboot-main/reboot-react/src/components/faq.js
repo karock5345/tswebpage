@@ -32,7 +32,7 @@ const Faq = ({ isBg }) => {
               to="contact"
               className="btn__primary smooth"
             >
-              <span>Let's talk</span>
+              <span>Whatsapp</span>
             </Link>
           </div>
           <div className="col-lg-6">

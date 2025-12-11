@@ -61,10 +61,11 @@
         position: relative;
         line-height: 1.8;
         &:before {
-          content: '\ea94';
+          content: '\ec7c';
           font-family: 'IcoFont';
           position: absolute;
           left: 0;
+          color: #FE5A10;
         }
       }
     }

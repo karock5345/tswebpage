@@ -4,10 +4,32 @@
 // Body font
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
+// Chinese font (Traditional Chinese - Hong Kong)
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300;400;500;600;700;800;900&display=swap');
+
 body {
   font-family: $font-display;
   line-height: 1.5;
   color: $color-gray;
+}
+
+// Apply Chinese font for Traditional Chinese
+html[lang="tc"] body,
+html[lang="zh-HK"] body,
+html[lang="zh-TW"] body {
+  font-family: $font-chinese, $font-display;
+}
+
+html[lang="tc"],
+html[lang="zh-HK"],
+html[lang="zh-TW"] {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $font-chinese, $font-heading;
+  }
+  
+  p, span, div, a, li, td, th, label, button {
+    font-family: $font-chinese, $font-display;
+  }
 }
 
 .theme-dark {

@@ -1,0 +1,384 @@
+{
+  "allJobReferences": [
+    {
+      "id": 36,
+      "client": "LG Service Centre",
+      "clientChinese": "LG維修中心",
+      "location": "Room 901-904, 9/F, Chow Tai Fook Commercial Centre, 580 Nathan Road, Mong Kok, Kowloon, Hong Kong",
+      "projectType": "Booking System",
+      "tag": "Booking System",
+      "description": "Implementation of booking system for LG Service Centre to manage customer appointments and improve service efficiency.",
+      "image": "assets/images/job-references/job-ref-LG.png"
+    },
+    {
+      "id": 11,
+      "client": "Bose Limited",
+      "clientChinese": "Bose有限公司",
+      "location": "Level 17, Tower 1, Metroplaza, 223 Hing Fong Road, Kwai Chung",
+      "projectType": "Booking System",
+      "tag": "Booking System",
+      "description": "Booking system for Bose Limited customer service center.",
+      "image": "assets/images/job-references/job-ref-11.jpg"
+    },
+    {
+      "id": 8,
+      "client": "GIA Hong Kong Laboratory Limited",
+      "clientChinese": "GIA香港鑑定所有限公司",
+      "location": "20/F Goldin Financial Global Centre, 17 Kai Cheung Rd, Kowloon Bay",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system for GIA Hong Kong Laboratory to manage customer appointments and service flow.",
+      "image": "assets/images/job-references/job-ref-08.jpg"
+    },
+    {
+      "id": 25,
+      "client": "Hong Kong International Airport",
+      "clientChinese": "香港國際機場",
+      "location": "Hong Kong International Airport T1, Level 5",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Developed and implemented a queuing system for the Hong Kong International Airport Permit Office.",
+      "image": "assets/images/job-references/job-ref-25.jpg"
+    },
+    {
+      "id": 26,
+      "client": "IKEA",
+      "clientChinese": "宜家家居",
+      "location": "4/F, Megabox, Kowloon Bay (Smaland)",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system for IKEA Smaland children's play area at Megabox location.",
+      "image": "assets/images/job-references/job-ref-26.jpg"
+    },
+    {
+      "id": 37,
+      "client": "Mazda Motor Corporation",
+      "clientChinese": "馬自達汽車",
+      "location": "Multiple locations in Hong Kong",
+      "projectType": "Booking System",
+      "tag": "Booking System",
+      "description": "Booking system for Mazda Motor Corporation service centers across Hong Kong locations.",
+      "image": "assets/images/job-references/job-ref-mazda.jpg"
+    },
+    {
+      "id": 1,
+      "client": "Immigration Department",
+      "clientChinese": "入境事務處",
+      "location": "2/F Arrival Hall of Lo Wu Terminal Building",
+      "projectType": "Central Control LED System",
+      "tag": "LED System",
+      "description": "Development and provision of 50 dot matrix LED displays (Model 19264T-3.75) and 4-key keyboards installed at immigration counters. Users can change messages on any LED display through central control computer.",
+      "image": "assets/images/job-references/job-ref-01.jpg"
+    },
+    {
+      "id": 2,
+      "client": "PCCW",
+      "clientChinese": "電訊盈科",
+      "location": "All branches in Hong Kong",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Development and customization of automatic queuing system for PCCW customer service centers. System automatically prints tickets and notifies users to proceed to designated counters.",
+      "image": "assets/images/job-references/job-ref-02.jpg"
+    },
+    {
+      "id": 3,
+      "client": "Hong Kong and China Gas",
+      "clientChinese": "香港中華煤氣",
+      "location": "All branches in Hong Kong",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Development and customization of automatic queuing system with automatic ticket printing, user notification, and database storage for all ticket times, queuing times and processing times.",
+      "image": "assets/images/job-references/job-ref-03.jpg"
+    },
+    {
+      "id": 4,
+      "client": "Inland Revenue Department",
+      "clientChinese": "稅務局",
+      "location": "3/F, Revenue Tower, Wan Chai",
+      "projectType": "Automatic Queuing System with Voice",
+      "tag": "Queuing System",
+      "description": "Customization and design of automatic queuing system with voice announcement. Features include single query multi-processing, different location ticket printing, complex database management.",
+      "image": "assets/images/job-references/job-ref-04.jpg"
+    },
+    {
+      "id": 5,
+      "client": "Café de Coral Group",
+      "clientChinese": "大家樂集團",
+      "location": "All branches in Hong Kong",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Collaboration with Café de Coral Group to develop 4th generation (4G) post-modern design concept, providing hotel-style comfort and elegance in café restaurants.",
+      "image": "assets/images/job-references/job-ref-05.jpg"
+    },
+    {
+      "id": 6,
+      "client": "Rating and Valuation Department",
+      "clientChinese": "差餉物業估價署",
+      "location": "15th floor, Cheung Sha Wan Government Offices, 303 Cheung Sha Wan Road",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system for Rating and Valuation Department customer service operations.",
+      "image": "assets/images/job-references/job-ref-06.jpg"
+    },
+    {
+      "id": 7,
+      "client": "Company Registry",
+      "clientChinese": "公司註冊處",
+      "location": "Unit 1208, 12/F, One Kowloon, 1 Wang Yuen Street, Kowloon Bay",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system implementation for Company Registry.",
+      "image": "assets/images/job-references/job-ref-07.jpg"
+    },
+    {
+      "id": 9,
+      "client": "Christian Family Service Centre",
+      "clientChinese": "基督教家庭服務中心",
+      "location": "Shop 1A, 3 Tai Yau Street, Maxgrand Plaza, San Po Kong",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system to manage visitor flow at Christian Family Service Centre.",
+      "image": "assets/images/job-references/job-ref-09.jpg"
+    },
+    {
+      "id": 10,
+      "client": "Roche Diagnostics (Hong Kong) Limited",
+      "clientChinese": "羅氏診斷(香港)有限公司",
+      "location": "Level 17, Tower 1, Metroplaza, 223 Hing Fong Road, Kwai Chung",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system for Roche Diagnostics Hong Kong operations.",
+      "image": "assets/images/job-references/job-ref-10.jpg"
+    },
+    {
+      "id": 12,
+      "client": "FTLife Insurance Company Limited",
+      "clientChinese": "富通保險有限公司",
+      "location": "31/F Tower 6 The Gateway",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system for FTLife Insurance customer service operations.",
+      "image": "assets/images/job-references/job-ref-12.jpg"
+    },
+    {
+      "id": 13,
+      "client": "Saizeriya Italian Restaurant",
+      "clientChinese": "薩利亞意式餐廳",
+      "location": "All branches in Hong Kong",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system for all Saizeriya Italian Restaurant branches in Hong Kong.",
+      "image": "assets/images/job-references/job-ref-13.jpg"
+    },
+    {
+      "id": 14,
+      "client": "Prime Credit Limited",
+      "clientChinese": "安信信貸有限公司",
+      "location": "Central, Tsim Sha Tsui, Causeway Bay",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system deployed at Prime Credit Limited offices in Central, Tsim Sha Tsui, and Causeway Bay.",
+      "image": "assets/images/job-references/job-ref-14.jpg"
+    },
+    {
+      "id": 15,
+      "client": "Shun Hing Technology Co. Ltd.",
+      "clientChinese": "信興科技有限公司",
+      "location": "9th Floor, Peninsula Centre, 67 Mody Road, Tsimshatsui East",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system for Shun Hing Technology, sole agent for Panasonic/National products.",
+      "image": "assets/images/job-references/job-ref-15.jpg"
+    },
+    {
+      "id": 16,
+      "client": "Besta Technology (HK) Company Limited",
+      "clientChinese": "好易通科技香港有限公司",
+      "location": "601, Silvercord Tower 1, 30 Canton Road, TST",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system for Besta Technology Hong Kong operations.",
+      "image": "assets/images/job-references/job-ref-16.jpg"
+    },
+    {
+      "id": 17,
+      "client": "Hong Kong Public Libraries",
+      "clientChinese": "香港公共圖書館",
+      "location": "3/F, 66 Causeway Road, Causeway Bay",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system for Hong Kong Public Libraries to manage visitor services efficiently.",
+      "image": "assets/images/job-references/job-ref-17.jpg"
+    },
+    {
+      "id": 18,
+      "client": "Crown Motors Limited",
+      "clientChinese": "皇冠汽車有限公司",
+      "location": "North Point and Kowloon Bay",
+      "projectType": "Booking System",
+      "tag": "Booking System",
+      "description": "Booking system for Crown Motors showrooms at two locations.",
+      "image": "assets/images/job-references/job-ref-18.jpg"
+    },
+    {
+      "id": 19,
+      "client": "HKU SPACE",
+      "clientChinese": "香港大學專業進修學院",
+      "location": "Kowloon East Campus, 1/F, 28 Wang Hoi Road, Kowloon Bay",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system for HKU SPACE Kowloon East Campus student services.",
+      "image": "assets/images/job-references/job-ref-19.jpg"
+    },
+    {
+      "id": 20,
+      "client": "Quality Healthcare Medical Center",
+      "clientChinese": "卓健醫療中心",
+      "location": "Shop 18, G/F, Tung Chung Crescent, 1 Hing Tung Street, Tung Chung",
+      "projectType": "Booking System",
+      "tag": "Booking System",
+      "description": "Booking system for Quality Healthcare Medical Center to manage patient appointments.",
+      "image": "assets/images/job-references/job-ref-20.jpg"
+    },
+    {
+      "id": 21,
+      "client": "Fortis Asia Holdings Limited",
+      "clientChinese": "富通亞洲控股有限公司",
+      "location": "Central, Mongkok, Tai Koo",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system deployed at three Fortis Asia Holdings offices: Central, Mongkok, and Tai Koo.",
+      "image": "assets/images/job-references/job-ref-21.jpg"
+    },
+    {
+      "id": 22,
+      "client": "Cathay Pacific Airways Limited",
+      "clientChinese": "國泰航空有限公司",
+      "location": "Suite 1808, 18th floor, Tower 6, The Gateway, Harbour City, TST",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system for Cathay Pacific Airways customer service center.",
+      "image": "assets/images/job-references/job-ref-22.jpg"
+    },
+    {
+      "id": 23,
+      "client": "The Macao Water Supply Co. Ltd.",
+      "clientChinese": "澳門自來水股份有限公司",
+      "location": "718, Avenida do Conselheiro Borja, Macau",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system for Macao Water Supply Company customer service operations.",
+      "image": "assets/images/job-references/job-ref-23.jpg"
+    },
+    {
+      "id": 24,
+      "client": "City Super Ltd.",
+      "clientChinese": "City Super超級市場",
+      "location": "IFC Central, Times Square, APM, Harbour City",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system for City Super supermarket at four premium locations in Hong Kong.",
+      "image": "assets/images/job-references/job-ref-24.jpg"
+    },
+    {
+      "id": 27,
+      "client": "Labour Department",
+      "clientChinese": "勞工處",
+      "location": "Unit 1225, 12/F, KITEC, 1 Trademart Drive, Kowloon Bay",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system for Labour Department to manage employment service operations.",
+      "image": "assets/images/job-references/job-ref-27.jpg"
+    },
+    {
+      "id": 28,
+      "client": "Pizza Hut Hong Kong",
+      "clientChinese": "必勝客香港",
+      "location": "Mongkok Plaza and other locations",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system for Pizza Hut restaurants at multiple Hong Kong locations.",
+      "image": "assets/images/job-references/job-ref-28.jpg"
+    },
+    {
+      "id": 29,
+      "client": "Ocean Park",
+      "clientChinese": "海洋公園",
+      "location": "Panda Restaurant and Ocean Restaurant",
+      "projectType": "Automatic Queuing System",
+      "tag": "Queuing System",
+      "description": "Automatic queuing system installed at Ocean Park restaurants to manage visitor flow efficiently.",
+      "image": "assets/images/job-references/job-ref-29.jpg"
+    },
+    {
+      "id": 30,
+      "client": "New Hong Kong Tunnel Co. Ltd.",
+      "clientChinese": "新香港隧道有限公司",
+      "location": "Eastern Harbour Tunnel, Quarry Bay",
+      "projectType": "Outdoor LED Traffic Sign",
+      "tag": "LED Traffic System",
+      "description": "Development of Lane Control Signal LED Signs (LCSS) for Eastern Harbour Tunnel with outdoor super bright 28mm LED cluster modules.",
+      "image": "assets/images/job-references/job-ref-30.jpg"
+    },
+    {
+      "id": 31,
+      "client": "Asia Airfreight Terminal Co. Ltd.",
+      "clientChinese": "亞洲空運服務有限公司",
+      "location": "10 Chun Ping Road, Hong Kong International Airport, Lantau",
+      "projectType": "Outdoor LED Traffic Sign",
+      "tag": "LED Traffic System",
+      "description": "LED dot matrix display board for Asia Airfreight Terminal traffic and logistics management.",
+      "image": "assets/images/job-references/job-ref-31.jpg"
+    },
+    {
+      "id": 32,
+      "client": "Transport Department",
+      "clientChinese": "運輸署",
+      "location": "Hung Hom Railway Station",
+      "projectType": "GPRS LED Display Board",
+      "tag": "LED System",
+      "description": "GPRS LED display board enabling remote control and real-time data transmission for traffic information.",
+      "image": "assets/images/job-references/job-ref-32.jpg"
+    },
+    {
+      "id": 33,
+      "client": "CNPC (Hong Kong) Limited",
+      "clientChinese": "中國(香港)石油有限公司",
+      "location": "Tung Chung, Tseung Kwan O, Tsuen Wan",
+      "projectType": "Outdoor LED",
+      "tag": "LED System",
+      "description": "Outdoor LED displays for CNPC gas stations at Tung Chung, Tseung Kwan O, and Tsuen Wan.",
+      "image": "assets/images/job-references/job-ref-33.jpg"
+    },
+    {
+      "id": 34,
+      "client": "Bank of China Group Insurance",
+      "clientChinese": "中銀集團保險有限公司",
+      "location": "Bank of China Insurance Building, 136 Des Voeux Road Central",
+      "projectType": "Outdoor Dot Matrix LED",
+      "tag": "LED System",
+      "description": "Outdoor dot matrix LED display board with tri-color display, resolution 800(w) x 16(h) dots.",
+      "image": "assets/images/job-references/job-ref-34.jpg"
+    },
+    {
+      "id": 35,
+      "client": "Hong Kong Cable Television Limited",
+      "clientChinese": "香港有線電視有限公司",
+      "location": "Cable TV Tower, 9 Hoi Shing Road, Tsuen Wan",
+      "projectType": "Indoor Dot Matrix VGA",
+      "tag": "LED System",
+      "description": "Indoor dot matrix LED display board with 7,133,300 colors VGA resolution for Cable TV broadcasting.",
+      "image": "assets/images/job-references/job-ref-35.jpg"
+    },
+    {
+      "id": 38,
+      "client": "Modern Hi-Tech Limited",
+      "clientChinese": "現代高科技有限公司",
+      "location": "R103, Butterfly Plaza, 1 Wu Chui Road, Tuen Mun",
+      "projectType": "Booking System",
+      "tag": "Booking System",
+      "description": "Booking system implementation for Modern Hi-Tech Limited to manage appointments and customer reservations.",
+      "image": "assets/images/job-references/job-ref-MHT.png"
+    }
+  ]
+}

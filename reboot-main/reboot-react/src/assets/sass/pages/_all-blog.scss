@@ -25,6 +25,10 @@
         font-size: 12px;
         border-radius: 30px;
       }
+      .client-english {
+        color: #999999;
+        font-weight: 400;
+      }
       &__writer {
         display: flex;
         align-items: center;
@@ -134,6 +138,10 @@
           color: $color-secondary;
           &:hover {
             color: $color-primary;
+          }
+          &.active {
+            color: $color-primary;
+            font-weight: 600;
           }
         }
         &::before {

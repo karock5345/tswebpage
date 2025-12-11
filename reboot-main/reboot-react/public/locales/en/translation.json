@@ -10,7 +10,8 @@
       "dropdownItem4": "Marketing solution",
       "dropdownItem5": "Digital agency",
       "dropdownItem6": "Software landing",
-      "dropdownItem7": "Apps landing"
+      "dropdownItem7": "Apps landing",
+      "dropdownItem8": "Booking System"
     },
     "about": {
       "title": "About"
@@ -25,15 +26,17 @@
       "title": "Apply"
     },
     "tsothers": {
-      "title": "Other Services"
+      "title": "Our Products",
+      "dropdownItem1": "Queuing System",
+      "dropdownItem2": "Booking System"
     },
     "tslang": {
       "title": "中文"
     }
   },
   "servicev2": {
-    "subtitle": "Our system features",
-    "title": "◊ Save man power ◊<br>◊ Online ticket ◊<br>◊ Data gathering ◊<br>◊ Real time Supervise ◊",
+    "subtitle": "Features",
+    "title": "Enhanced Queue Management",
     "note": "Our engineer will send you more details",
 
     "serviceSliders1": {
@@ -54,19 +57,81 @@
     },
     "serviceSliders5": {
       "title": "One system multiple branch",
-      "development": "Support multiple branch. Centralize settings including staff login, supervision, access data for analysis between branches etc."
+      "development": "Centralized multi-branch management for staff login, oversight, and data analysis."
     },
     "serviceSliders6": {
-      "title": "One ticket for multiple counter",
-      "development": "Set the flow tailor to your centre for example, one ticket to queue for Information counter -> cashier counter"
+      "title": "One ticket, multiple counters",
+      "development": "Customize the flow—for example, one ticket from Information to Cashier"
     },
     "serviceSliders7": {
       "title": "Voice announement",
-      "development": "Support Cantonese, English, Mandarin and Portuguese voice announcement, make sure anyone are notified by a familiar language"
+      "development": "Cantonese, English, Mandarin, and Portuguese voice announcements so all users hear updates in their own language."
     },
     "serviceSliders8": {
       "title": "Out of Paper notification",
       "development": "Noifity ticket printer paper near-end / paper out."
+    }
+  },
+
+  "aboutUsPage": {
+    "hero": {
+      "title": "About TS v-development Limited",
+      "subtitle": "Your trusted partner in innovative IT solutions for over 20 years"
+    },
+    "whoWeAre": {
+      "title": "Who We Are",
+      "content": "TS v-development Limited is a leading IT solutions provider based in Hong Kong, specializing in queuing systems, booking systems, LED display solutions, and custom software development."
+    },
+    "expertise": {
+      "title": "Our Expertise",
+      "subtitle": "We deliver comprehensive IT solutions across multiple domains",
+      "card1": {
+        "title": "Queuing System",
+        "description": "Advanced queue management solutions for government offices, healthcare facilities, and service centers. Streamline customer flow and reduce wait times."
+      },
+      "card2": {
+        "title": "Booking System",
+        "description": "Comprehensive appointment and reservation systems for restaurants, clinics, and service providers. Manage bookings efficiently and reduce no-shows."
+      },
+      "card3": {
+        "title": "LED Display System",
+        "description": "Dynamic LED display solutions for information dissemination, advertising, and wayfinding. Perfect for airports, shopping malls, and public spaces."
+      },
+      "card4": {
+        "title": "IT Solutions",
+        "description": "Custom software development, system integration, and IT consulting services tailored to your business needs."
+      }
+    },
+    "whyChoose": {
+      "title": "Why Choose Us",
+      "subtitle": "What sets us apart from the competition",
+      "card1": {
+        "title": "20+ Years Experience",
+        "description": "Over two decades of expertise in delivering innovative IT solutions across diverse industries."
+      },
+      "card2": {
+        "title": "Custom Solutions",
+        "description": "Tailored systems designed to meet your specific business requirements and objectives."
+      },
+      "card3": {
+        "title": "Dedicated Support",
+        "description": "Comprehensive after-sales support and maintenance to ensure your systems run smoothly."
+      }
+    },
+    "trackRecord": {
+      "years": "Years of Experience",
+      "projects": "Successful Projects",
+      "satisfaction": "Client Satisfaction"
+    },
+    "trustedBy": {
+      "title": "Trusted By Industry Leaders",
+      "subtitle": "We serve clients across diverse sectors",
+      "government": "Government",
+      "aviation": "Aviation",
+      "foodBeverage": "Food & Beverage",
+      "utilities": "Utilities",
+      "telecom": "Telecom",
+      "retail": "Retail"
     }
   },
 
@@ -77,8 +142,8 @@
     "button": "Get details",
     "badgeTitle": "Trusted clients",
     "badge": "Projects",
-    "whatsapp": "Whatsapp us now!",
-    "phone": "Call us now!"
+    "whatsapp": "Whatsapp",
+    "phone": "Phone"
   },
 
   "aboutv2": {
@@ -623,9 +688,10 @@
     "description": "Preferring to go on writing binges, Strayed, who is the mother  of two small children, often ensconces herself in a hotel room to burrow into her work for a few days or weeks."
   },
   "ctav3": {
-    "title": "Call Us 24/7",
-    "description": "We do know that what we call insurance is changing, with a steady growth of high deductible plans and more cost sharing for consumers.",
-    "button": "Let's Talk",
+    "title": "Whatsapp our AI Robot 24/7",
+    "description": "We know that technology is constantly evolving, and TS v-development Limited stays ahead with innovative solutions and cutting-edge development services for our clients.",
+    "button": "Whatsapp",
+    "button2": "E-mail",
     "counterCards": {
       "1": "Happy Clients",
       "2": "companies",
@@ -877,14 +943,14 @@
   "footer": {
     "title": "Join our newsletter",
     "description": "Resources advice avoid trees declared particular offended others anxious husband chicken miles great account.",
-    "copyright": "2022 All right reserved. Made with",
+    "copyright": "2026 All right reserved. Made with",
     "name": "ThemeAtelier",
     "submit": "Submit"
   },
   "footerv2": {
     "title": "Join our newsletter",
     "description": "Resources advice avoid trees declared particular offended others anxious husband chicken miles great account.",
-    "copyright": "2022 All right reserved. Made with",
+    "copyright": "2026 All right reserved. Made with",
     "number": "Call Now:",
     "email": "Email Now:",
     "location": "Our Location:",
@@ -1254,13 +1320,12 @@
     "title1": "Search",
     "title2": "Category",
     "button": "Search",
-    "category1": "Creative",
-    "category2": "Marketing",
-    "category3": "Digital AI",
-    "category4": "Theme Upload",
-    "category5": "Software Marketing",
-    "category6": "Agency",
-    "category7": "Social Marketing"
+    "search": "Search job references...",
+    "category1": "All Projects",
+    "category2": "Booking System",
+    "category3": "LED System",
+    "category4": "LED Traffic System",
+    "category5": "Queuing System"
   },
   "allProject": {
     "project1": {
@@ -1349,5 +1414,153 @@
       "title": "Share"
     },
     "button": "Live Preview"
+  },
+  
+  "bookingSystem": {
+    "hero": {
+      "subtitle": "APPOINTMENTS & BOOKING SYSTEM",
+      "title": "Transform Your Clinic Operations with Smart Booking",
+      "description": "Designed specifically for clinics supporting automatic multi-queue flow for Diagnostics, Treatments, Pharmacy, and Payment. Streamline operations and improve customer satisfaction.",
+      "badge": "Projects",
+      "phone": "Phone",
+      "whatsapp": "WhatsApp",
+      "email": "Email"
+    },
+    "features": {
+      "title": "Powerful Features for Modern Clinics",
+      "subtitle": "KEY FEATURES",
+      "feature1": {
+        "title": "Online System",
+        "description": "The online system helps maintain distance and prevent the spread of illnesses."
+      },
+      "feature2": {
+        "title": "Clinic Multi-Queue Support",
+        "description": "Automatic multi-queue flow designed for Diagnostics, Treatments, Pharmacy, and Payment processes"
+      },
+      "feature3": {
+        "title": "Save Staff Time",
+        "description": "Automate appointment scheduling and queue management to reduce manual work and administrative burden"
+      },
+      "feature4": {
+        "title": "User-Friendly Interface",
+        "description": "Intuitive design for both customers and staff ensuring easy adoption and efficient operations"
+      },
+      "feature5": {
+        "title": "Improve Customer Satisfaction",
+        "description": "Reduce waiting times and provide better patient experience with organized queue management"
+      },
+      "feature6": {
+        "title": "24/7 Online Booking",
+        "description": "Customers can book appointments anytime, anywhere through web or mobile interface"
+      },
+      "feature7": {
+        "title": "Automated Reminders",
+        "description": "Reduce no-shows with SMS, WhatsApp, and Email reminders sent automatically before appointments"
+      },
+      "feature8": {
+        "title": "Queue System Integration",
+        "description": "Fully integrated with our professional queuing system for seamless patient flow management"
+      }
+    },
+    "howItWorks": {
+      "title": "Simple & Efficient Process",
+      "subtitle": "HOW IT WORKS",
+      "note": "Get started today and experience the difference in your clinic operations",
+      "step1": {
+        "title": "Auto-Generate Schedules",
+        "description": "System automatically generates optimal appointment schedules based on clinic availability and staff capacity"
+      },
+      "step2": {
+        "title": "Online Booking",
+        "description": "Customers book appointments online through web or mobile interface at their convenience"
+      },
+      "step3": {
+        "title": "Staff Confirmation",
+        "description": "Staff review and confirm appointments, make adjustments if needed, and prepare for patient visits"
+      },
+      "step4": {
+        "title": "Automated Reminders",
+        "description": "System sends automated reminders via SMS, WhatsApp, and Email to reduce no-shows and improve attendance"
+      }
+    },
+    "advancedFeatures": {
+      "title": "Advanced Queue Management",
+      "subtitle": "POWERFUL CAPABILITIES",
+      "note": "Contact our team to learn more about advanced features tailored to your clinic needs",
+      "slider1": {
+        "title": "Organize All Check-ins",
+        "description": "Manage and organize all checked-in customers in a centralized dashboard. Track patient status in real-time across Diagnostics, Treatments, Pharmacy, and Payment queues."
+      },
+      "slider2": {
+        "title": "Auto-Generate Service Order",
+        "description": "Automatically generate the optimal service order based on check-in time, appointment priority, and clinic workflow. Ensure fair and efficient patient flow throughout the facility."
+      },
+      "slider3": {
+        "title": "Real-Time Status Updates",
+        "description": "Provide real-time updates to patients on their queue position and estimated wait time. Keep everyone informed and reduce anxiety in the waiting area."
+      }
+    },
+    "customers": {
+      "title": "Trusted by Leading Organizations",
+      "subtitle": "OUR CUSTOMERS",
+      "description": "We are proud to serve government departments, healthcare facilities, and service centers across Hong Kong",
+      "project1": {
+        "title": "Hong Kong International Airport"
+      },
+      "project2": {
+        "title": "International Electronics Corporation"
+      },
+      "project3": {
+        "title": "Healthcare"
+      },
+      "project4": {
+        "title": "A globally recognized brand"
+      },
+      "project5": {
+        "title": "One of the world’s largest corporations"
+      },
+      "project6": {
+        "title": "Japanese automotive manufacturer"
+      },
+      "testimonials": {
+        "title": "What Our Clients Say",
+        "review1": {
+          "name": "Dr. Anya Wong",
+          "title": "Clinic Director",
+          "description": "The booking system has transformed our clinic operations. We've reduced no-shows by 40% and our staff can focus more on patient care rather than administrative tasks."
+        },
+        "review2": {
+          "name": "Michael Chan",
+          "title": "Operations Manager",
+          "description": "Excellent integration with our existing queue management system. The automated reminders via WhatsApp have been particularly effective in improving appointment attendance."
+        },
+        "review3": {
+          "name": "Linda Lee",
+          "title": "Healthcare Administrator",
+          "description": "User-friendly interface for both patients and staff. The multi-queue flow for diagnostics, treatment, pharmacy, and payment has streamlined our entire workflow significantly."
+        }
+      }
+    },
+    "contact": {
+      "title": "Get Started Today",
+      "subtitle": "CONTACT US",
+      "description": "Ready to transform your clinic operations? Contact our team for a consultation and see how our booking system can work for you.",
+      "info1": {
+        "title": "Phone",
+        "text": "+852 27578547"
+      },
+      "info2": {
+        "title": "WhatsApp",
+        "text": "+852 5722 5345"
+      },
+      "info3": {
+        "title": "Email",
+        "text": "sales@tsvd.com.hk"
+      },
+      "info4": {
+        "title": "Address",
+        "text": "Room A7, 7/F, Blk A, Proficient Industrial Centre, 6 Wang Kwun Road, Kowloon Bay, Hong Kong"
+      }
+    }
   }
 }

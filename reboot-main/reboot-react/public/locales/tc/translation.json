@@ -10,7 +10,8 @@
         "dropdownItem4": "Marketing solution",
         "dropdownItem5": "Digital agency",
         "dropdownItem6": "Software landing",
-        "dropdownItem7": "Apps landing"
+        "dropdownItem7": "Apps landing",
+        "dropdownItem8": "預約系統"
       },
       "about": {
         "title": "關於我們"
@@ -19,13 +20,21 @@
         "title": "系統特點"
       },
       "project": {
-        "title": "工程範例"
+        "title": "工程範例",
+        "dropdownItem1": "工程案例概覽",
+        "dropdownItem2": "工程案例詳情"
       },
       "tsfitfeature": {
         "title": "應用層面"
       },
       "tsothers": {
-        "title": "其他產品與服務"
+        "title": "我們的產品",
+        "dropdownItem1": "排隊系統",
+        "dropdownItem2": "預約系統"
+      },
+      "jobreferences": {
+        "title": "工程案例",
+        "subtitle": "客戶項目參考"
       },
       "tslang": {
         "title": "EN"
@@ -34,7 +43,7 @@
     },
     "servicev2": {
       "subtitle": "系統特色",
-      "title": "◊ 節省人手<br>◊ 線上取票<br>◊ 數據收集<br>◊ 實時監督",
+      "title": "強化排隊管理系統",
       "note": "我們的工程師會向您提供更多詳細資料",
 
 
@@ -69,8 +78,74 @@
       "serviceSliders8": {
         "title": "缺紙提示",
         "development": "紙張用完前通知警告，確保連續打印"
+      },
+      "serviceSliders9": {
+        "title": "跨平台就緒",
+        "development": "在Windows、macOS、iPhone/iPad和Android上均可使用，提供最大的靈活性。"
       }
-    }, 
+    },
+
+    "aboutUsPage": {
+      "hero": {
+        "title": "關於 TS v-development Limited",
+        "subtitle": "您值得信賴的創新IT解決方案合作夥伴，超過20年的專業經驗"
+      },
+      "whoWeAre": {
+        "title": "我們是誰",
+        "content": "TS v-development Limited 是一家領先的IT解決方案提供商，總部位於香港，專門從事排隊系統、預約系統、LED顯示解決方案和定制軟件開發。"
+      },
+      "expertise": {
+        "title": "我們的專業領域",
+        "subtitle": "跨越多個領域提供全面的IT解決方案",
+        "card1": {
+          "title": "排隊系統",
+          "description": "政府辦事處、醫療設施和服務中心的先進隊列管理解決方案。簡化客戶流程，減少等待時間。"
+        },
+        "card2": {
+          "title": "預約系統",
+          "description": "為餐廳、診所和服務提供商提供的全面預約和保留系統。有效管理預約並減少缺席。"
+        },
+        "card3": {
+          "title": "LED顯示系統",
+          "description": "用於信息發布、廣告和導航的動態LED顯示解決方案。適合機場、購物中心和公共場所。"
+        },
+        "card4": {
+          "title": "IT解決方案",
+          "description": "定制軟件開發、系統集成和根據您的業務需要量身定制的IT諮詢服務。"
+        }
+      },
+      "whyChoose": {
+        "title": "為什麼選擇我們",
+        "subtitle": "是什麼讓我們與眾不同",
+        "card1": {
+          "title": "20年以上經驗",
+          "description": "超過二十年在各個行業提供創新IT解決方案的專業經驗。"
+        },
+        "card2": {
+          "title": "定制解決方案",
+          "description": "根據您的具體業務需求和目標設計的定制系統。"
+        },
+        "card3": {
+          "title": "專業支持",
+          "description": "全面的售後支持和維護，確保您的系統平穩運行。"
+        }
+      },
+      "trackRecord": {
+        "years": "從業年份",
+        "projects": "成功項目",
+        "satisfaction": "客戶滿意度"
+      },
+      "trustedBy": {
+        "title": "受信任的行業領袖",
+        "subtitle": "我們服務於各個不同行業的客戶",
+        "government": "政府",
+        "aviation": "航空",
+        "foodBeverage": "食品及飲品",
+        "utilities": "公用事業",
+        "telecom": "電信",
+        "retail": "零售"
+      }
+    },
   
     "herov2": {
       "subtitle": "最佳排隊系統供應商",
@@ -79,8 +154,8 @@
       "button": "了解詳情",
       "badgeTitle": "工程個案",
       "badge": "工程個案",
-      "whatsapp": "Whatsapp 聯絡我們",
-      "phone": "電聯我們!"
+      "whatsapp": "Whatsapp",
+      "phone": "致電我們"
     },
   
     "aboutv2": {
@@ -230,7 +305,7 @@
     "footerv2": {
       "title": "Join our newsletter",
       "description": "Resources advice avoid trees declared particular offended others anxious husband chicken miles great account.",
-      "copyright": "2022 All right reserved. Made with",
+      "copyright": "2026 All right reserved. Made with",
       "number": "請致電:",
       "email": "電郵:",
       "location": "地址:",
@@ -499,6 +574,10 @@
         "title": "project",
         "projectDropdown1": "All project",
         "projectDropdown2": "project Details"
+      },
+      "jobReference": {
+        "title": "工程案例",
+        "jobReferenceDropdown1": "所有工程案例"
       }
     },
   
@@ -633,9 +712,10 @@
       "description": "Preferring to go on writing binges, Strayed, who is the mother  of two small children, often ensconces herself in a hotel room to burrow into her work for a few days or weeks."
     },
     "ctav3": {
-      "title": "Call Us 24/7",
-      "description": "We do know that what we call insurance is changing, with a steady growth of high deductible plans and more cost sharing for consumers.",
-      "button": "Let's Talk",
+      "title": "WhatsApp AI 客戶服務 24/7",
+      "description": "我們深知科技不斷演進，TS v-development Limited 與時俱進，為客戶提供創新解決方案和尖端開發服務。",
+      "button": "WhatsApp",
+      "button2": "電郵",
       "counterCards": {
         "1": "Happy Clients",
         "2": "companies",
@@ -887,7 +967,7 @@
     "footer": {
       "title": "Join our newsletter",
       "description": "Resources advice avoid trees declared particular offended others anxious husband chicken miles great account.",
-      "copyright": "2022 All right reserved. Made with",
+      "copyright": "2026 All right reserved. Made with",
       "name": "ThemeAtelier",
       "submit": "Submit"
     },
@@ -1201,6 +1281,392 @@
       "totalDownload2": "Total Download",
       "button": "Download"
     },
+    "allJobReferences": {
+      "jobRef1": {
+        "client": "LG Service Centre",
+        "clientChinese": "LG維修中心",
+        "location": "Room 901-904, 9/F, Chow Tai Fook Commercial Centre, 580 Nathan Road, Mong Kok, Kowloon, Hong Kong",
+        "projectType": "預約系統",
+        "details": "為LG維修中心實施自動排隊系統，用於管理客戶流量及提升服務效率。",
+        "image": "assets/images/job-references/immigration-dept.jpg"
+      },
+      "jobRef2": {
+        "client": "Bose Limited",
+        "clientChinese": "Bose有限公司",
+        "location": "Level 17, Tower 1, Metroplaza, 223 Hing Fong Road, Kwai Chung",
+        "projectType": "預約系統",
+        "details": "為Bose Limited客戶服務中心提供自動排隊系統。",
+        "image": "assets/images/job-references/pccw.jpg"
+      },
+      "jobRef3": {
+        "client": "GIA Hong Kong Laboratory Limited",
+        "clientChinese": "GIA香港鑑定所有限公司",
+        "location": "20/F Goldin Financial Global Centre, 17 Kai Cheung Rd, Kowloon Bay",
+        "projectType": "排隊系統",
+        "details": "為GIA香港鑑定所提供自動排隊系統，用於管理客戶預約及服務流程。",
+        "image": "assets/images/job-references/hk-china-gas.jpg"
+      },
+      "jobRef4": {
+        "client": "Hong Kong International Airport",
+        "clientChinese": "香港國際機場",
+        "location": "Hong Kong International Airport T1, Level 5",
+        "projectType": "排隊系統",
+        "details": "為香港國際機場許可辦事處開發及實施排隊系統。",
+        "image": "assets/images/job-references/inland-revenue.jpg"
+      },
+      "jobRef5": {
+        "client": "IKEA",
+        "clientChinese": "宜家家居",
+        "location": "4/F, Megabox, Kowloon Bay (Smaland)",
+        "projectType": "排隊系統",
+        "details": "為宜家家居Megabox分店的Smaland兒童遊戲區提供自動排隊系統。",
+        "image": "assets/images/job-references/cafe-de-coral.jpg"
+      },
+      "jobRef6": {
+        "client": "Mazda Motor Corporation",
+        "clientChinese": "馬自達汽車",
+        "location": "Multiple locations in Hong Kong",
+        "projectType": "預約系統",
+        "details": "為馬自達汽車於香港各地服務中心提供自動排隊系統。",
+        "image": "assets/images/job-references/rating-valuation.jpg"
+      },
+      "jobRef7": {
+        "client": "Immigration Department",
+        "clientChinese": "入境事務處",
+        "location": "2/F Arrival Hall of Lo Wu Terminal Building",
+        "projectType": "LED系統",
+        "details": "開發並提供50個點陣LED顯示板（型號19264T-3.75）及4鍵鍵盤，安裝於各入境櫃檯。用戶可透過中央控制電腦更改任何LED顯示板上的訊息。",
+        "image": "assets/images/job-references/company-registry.jpg"
+      },
+      "jobRef8": {
+        "client": "PCCW",
+        "clientChinese": "電訊盈科",
+        "location": "All branches in Hong Kong",
+        "projectType": "排隊系統",
+        "details": "為電訊盈科客戶服務中心開發及定制自動排隊系統。系統自動打印票據，並通知用戶前往指定櫃檯。",
+        "image": "assets/images/job-references/gia.jpg"
+      },
+      "jobRef9": {
+        "client": "Hong Kong and China Gas",
+        "clientChinese": "香港中華煤氣",
+        "location": "All branches in Hong Kong",
+        "projectType": "排隊系統",
+        "details": "開發及定制自動排隊系統，具備自動打印票據、通知用戶前往櫃檯功能，並將所有票據時間、排隊時間及處理時間儲存於資料庫中。",
+        "image": "assets/images/job-references/christian-family.jpg"
+      },
+      "jobRef10": {
+        "client": "Inland Revenue Department",
+        "clientChinese": "稅務局",
+        "location": "3/F, Revenue Tower, Wan Chai",
+        "projectType": "排隊系統",
+        "details": "定制及設計自動排隊系統，配備語音播報功能。特定功能包括單一查詢多重處理、不同位置打印票據及複雜資料庫管理。",
+        "image": "assets/images/job-references/roche.jpg"
+      },
+      "jobRef11": {
+        "client": "Café de Coral Group",
+        "clientChinese": "大家樂集團",
+        "location": "All branches in Hong Kong",
+        "projectType": "排隊系統",
+        "details": "與大家樂集團合作開發第4代（4G）後現代設計概念，在咖啡廳餐廳中為顧客提供酒店式的舒適與優雅體驗。",
+        "image": "assets/images/job-references/bose.jpg"
+      },
+      "jobRef12": {
+        "client": "Rating and Valuation Department",
+        "clientChinese": "差餉物業估價署",
+        "location": "15th floor, Cheung Sha Wan Government Offices, 303 Cheung Sha Wan Road",
+        "projectType": "排隊系統",
+        "details": "為差餉物業估價署客戶服務運作提供自動排隊系統。",
+        "image": "assets/images/job-references/ftlife.jpg"
+      },
+      "jobRef13": {
+        "client": "Company Registry",
+        "clientChinese": "公司註冊處",
+        "location": "Unit 1208, 12/F, One Kowloon, 1 Wang Yuen Street, Kowloon Bay",
+        "projectType": "排隊系統",
+        "details": "為公司註冊處實施自動排隊系統。",
+        "image": "assets/images/job-references/saizeriya.jpg"
+      },
+      "jobRef14": {
+        "client": "Christian Family Service Centre",
+        "clientChinese": "基督教家庭服務中心",
+        "location": "Shop 1A, 3 Tai Yau Street, Maxgrand Plaza, San Po Kong",
+        "projectType": "排隊系統",
+        "details": "為基督教家庭服務中心提供自動排隊系統，用於管理訪客流量。",
+        "image": "assets/images/job-references/prime-credit.jpg"
+      },
+      "jobRef15": {
+        "client": "Roche Diagnostics (Hong Kong) Limited",
+        "clientChinese": "羅氏診斷(香港)有限公司",
+        "location": "Level 17, Tower 1, Metroplaza, 223 Hing Fong Road, Kwai Chung",
+        "projectType": "排隊系統",
+        "details": "為羅氏診斷香港業務提供自動排隊系統。",
+        "image": "assets/images/job-references/eastern-harbour-tunnel.jpg"
+      },
+      "jobRef16": {
+        "client": "FTLife Insurance Company Limited",
+        "clientChinese": "富通保險有限公司",
+        "location": "31/F Tower 6 The Gateway",
+        "projectType": "排隊系統",
+        "details": "為富通保險客戶服務運作提供自動排隊系統。",
+        "image": "assets/images/job-references/shun-hing.jpg"
+      },
+      "jobRef17": {
+        "client": "Saizeriya Italian Restaurant",
+        "clientChinese": "薩利亞意式餐廳",
+        "location": "All branches in Hong Kong",
+        "projectType": "排隊系統",
+        "details": "為薩利亞意式餐廳所有香港分店提供自動排隊系統。",
+        "image": "assets/images/job-references/besta.jpg"
+      },
+      "jobRef18": {
+        "client": "Prime Credit Limited",
+        "clientChinese": "安信信貸有限公司",
+        "location": "Central, Tsim Sha Tsui, Causeway Bay",
+        "projectType": "排隊系統",
+        "details": "為安信信貸有限公司於中環、尖沙咀及銅鑼灣辦事處部署自動排隊系統。",
+        "image": "assets/images/job-references/public-library.jpg"
+      },
+      "jobRef19": {
+        "client": "Shun Hing Technology Co. Ltd.",
+        "clientChinese": "信興科技有限公司",
+        "location": "9th Floor, Peninsula Centre, 67 Mody Road, Tsimshatsui East",
+        "projectType": "排隊系統",
+        "details": "為信興科技（Panasonic/National產品獨家代理）提供自動排隊系統。",
+        "image": "assets/images/job-references/crown-motors.jpg"
+      },
+      "jobRef20": {
+        "client": "Besta Technology (HK) Company Limited",
+        "clientChinese": "好易通科技香港有限公司",
+        "location": "601, Silvercord Tower 1, 30 Canton Road, TST",
+        "projectType": "排隊系統",
+        "details": "為好易通科技香港業務提供自動排隊系統。",
+        "image": "assets/images/job-references/hku-space.jpg"
+      },
+      "jobRef21": {
+        "client": "Hong Kong Public Libraries",
+        "clientChinese": "香港公共圖書館",
+        "location": "3/F, 66 Causeway Road, Causeway Bay",
+        "projectType": "排隊系統",
+        "details": "為香港公共圖書館提供自動排隊系統，有效管理訪客服務。",
+        "image": "assets/images/job-references/quality-healthcare.jpg"
+      },
+      "jobRef22": {
+        "client": "Crown Motors Limited",
+        "clientChinese": "皇冠汽車有限公司",
+        "location": "North Point and Kowloon Bay",
+        "projectType": "預約系統",
+        "details": "為Crown Motors兩個展示室提供自動排隊系統。",
+        "image": "assets/images/job-references/fortis.jpg"
+      },
+      "jobRef23": {
+        "client": "HKU SPACE",
+        "clientChinese": "香港大學專業進修學院",
+        "location": "Kowloon East Campus, 1/F, 28 Wang Hoi Road, Kowloon Bay",
+        "projectType": "排隊系統",
+        "details": "為香港大學專業進修學院九龍東校園學生服務提供自動排隊系統。",
+        "image": "assets/images/job-references/cathay-pacific.jpg"
+      },
+      "jobRef24": {
+        "client": "Quality Healthcare Medical Center",
+        "clientChinese": "卓健醫療中心",
+        "location": "Shop 18, G/F, Tung Chung Crescent, 1 Hing Tung Street, Tung Chung",
+        "projectType": "預約系統",
+        "details": "為卓健醫療中心提供自動排隊系統，用於管理病人流量。",
+        "image": "assets/images/job-references/macao-water.jpg"
+      },
+      "jobRef25": {
+        "client": "Fortis Asia Holdings Limited",
+        "clientChinese": "富通亞洲控股有限公司",
+        "location": "Central, Mongkok, Tai Koo",
+        "projectType": "排隊系統",
+        "details": "為富通亞洲控股三個辦事處（中環、旺角及太古）部署自動排隊系統。",
+        "image": "assets/images/job-references/city-super.jpg"
+      },
+      "jobRef26": {
+        "client": "Cathay Pacific Airways Limited",
+        "clientChinese": "國泰航空有限公司",
+        "location": "Suite 1808, 18th floor, Tower 6, The Gateway, Harbour City, TST",
+        "projectType": "排隊系統",
+        "details": "為國泰航空客戶服務中心提供自動排隊系統。",
+        "image": "assets/images/job-references/hk-airport.jpg"
+      },
+      "jobRef27": {
+        "client": "The Macao Water Supply Co. Ltd.",
+        "clientChinese": "澳門自來水股份有限公司",
+        "location": "718, Avenida do Conselheiro Borja, Macau",
+        "projectType": "排隊系統",
+        "details": "為澳門自來水公司客戶服務運作提供自動排隊系統。",
+        "image": "assets/images/job-references/ikea.jpg"
+      },
+      "jobRef28": {
+        "client": "City Super Ltd.",
+        "clientChinese": "City Super超級市場",
+        "location": "IFC Central, Times Square, APM, Harbour City",
+        "projectType": "排隊系統",
+        "details": "為City Super超級市場於香港四個高端地點提供自動排隊系統。",
+        "image": "assets/images/job-references/labour-dept.jpg"
+      },
+      "jobRef29": {
+        "client": "Labour Department",
+        "clientChinese": "勞工處",
+        "location": "Unit 1225, 12/F, KITEC, 1 Trademart Drive, Kowloon Bay",
+        "projectType": "排隊系統",
+        "details": "為勞工處提供自動排隊系統，用於管理就業服務運作。",
+        "image": "assets/images/job-references/pizza-hut.jpg"
+      },
+      "jobRef30": {
+        "client": "Pizza Hut Hong Kong",
+        "clientChinese": "必勝客香港",
+        "location": "Mongkok Plaza and other locations",
+        "projectType": "排隊系統",
+        "details": "為必勝客香港多個分店提供自動排隊系統。",
+        "image": "assets/images/job-references/ocean-park.jpg"
+      },
+      "jobRef31": {
+        "client": "Ocean Park",
+        "clientChinese": "海洋公園",
+        "location": "Panda Restaurant and Ocean Restaurant",
+        "projectType": "排隊系統",
+        "details": "為海洋公園餐廳安裝自動排隊系統，以有效管理訪客流量。",
+        "image": "assets/images/job-references/asia-airfreight.jpg"
+      },
+      "jobRef32": {
+        "client": "New Hong Kong Tunnel Co. Ltd.",
+        "clientChinese": "新香港隧道有限公司",
+        "location": "Eastern Harbour Tunnel, Quarry Bay",
+        "projectType": "LED交通系統",
+        "details": "為東區海底隧道開發車道控制信號LED標誌（LCSS），採用戶外超高亮度28mm LED集群模組。",
+        "image": "assets/images/job-references/transport-dept.jpg"
+      },
+      "jobRef33": {
+        "client": "Asia Airfreight Terminal Co. Ltd.",
+        "clientChinese": "亞洲空運服務有限公司",
+        "location": "10 Chun Ping Road, Hong Kong International Airport, Lantau",
+        "projectType": "LED交通系統",
+        "details": "為亞洲空運服務有限公司提供LED點陣顯示板，用於交通及物流管理。",
+        "image": "assets/images/job-references/cnpc.jpg"
+      },
+      "jobRef34": {
+        "client": "Transport Department",
+        "clientChinese": "運輸署",
+        "location": "Hung Hom Railway Station",
+        "projectType": "LED系統",
+        "details": "利用GPRS技術開發LED顯示板，實現遠程控制及實時數據傳輸，用於交通資訊發佈。",
+        "image": "assets/images/job-references/boc-insurance.jpg"
+      },
+      "jobRef35": {
+        "client": "CNPC (Hong Kong) Limited",
+        "clientChinese": "中國(香港)石油有限公司",
+        "location": "Tung Chung, Tseung Kwan O, Tsuen Wan",
+        "projectType": "LED系統",
+        "details": "為中國石油東涌、將軍澳及荃灣加油站提供戶外LED顯示板。",
+        "image": "assets/images/job-references/cable-tv.jpg"
+      },
+      "jobRef36": {
+        "client": "Bank of China Group Insurance",
+        "clientChinese": "中銀集團保險有限公司",
+        "location": "Bank of China Insurance Building, 136 Des Voeux Road Central",
+        "projectType": "LED系統",
+        "details": "為中銀集團保險提供戶外點陣LED顯示板，三色顯示，解像度800(寬) x 16(高)點。",
+        "image": "assets/images/job-references/job-ref-34.jpg"
+      },
+      "jobRef37": {
+        "client": "Hong Kong Cable Television Limited",
+        "clientChinese": "香港有線電視有限公司",
+        "location": "Cable TV Tower, 9 Hoi Shing Road, Tsuen Wan",
+        "projectType": "LED系統",
+        "details": "為有線電視提供室內點陣LED顯示板，7,133,300色VGA解像度，用於有線電視廣播。",
+        "image": "assets/images/job-references/job-ref-35.jpg"
+      },
+      "jobRef38": {
+        "client": "Modern Hi-Tech Limited",
+        "clientChinese": "現代高科技有限公司",
+        "location": "R103, 蝴蝶廣場, 屯門湖翠路1號",
+        "projectType": "預約系統",
+        "details": "為現代高科技有限公司提供預約系統，用於管理預約和客戶預訂。",
+        "image": "assets/images/job-references/job-ref-MHT.png"
+      },
+      "jobRef39": {
+        "client": "SAR Culture Ltd.",
+        "clientChinese": "開益書店",
+        "location": "1/F 511 Lockhart Road, Causeway Bay & 1/F 45 Haiphong Road, Tsim Sha Tsui",
+        "projectType": "LED顯示板",
+        "details": "為開益書店提供LED顯示板解決方案。",
+        "image": "assets/images/job-references/sar-culture.jpg"
+      },
+      "jobRef40": {
+        "client": "Tin Wan Chi Nam Primary School",
+        "clientChinese": "聖公會田灣始南小學",
+        "location": "Tim Wan New Street, Aberdeen, Hong Kong",
+        "projectType": "LED顯示板",
+        "details": "為田灣始南小學提供LED顯示板解決方案。",
+        "image": "assets/images/job-references/tin-wan-school.jpg"
+      },
+      "jobRef41": {
+        "client": "Y.L.P.M.S. Alumni Assn. Primary School",
+        "clientChinese": "元朗公立中學校友會小學",
+        "location": "No. 2, Town Park Road North, Yuen Long, N.T.",
+        "projectType": "LED顯示板",
+        "details": "為元朗公立中學校友會小學提供LED顯示板解決方案。",
+        "image": "assets/images/job-references/ylpms-primary.jpg"
+      },
+      "jobRef42": {
+        "client": "Y.L.P.M.S. Alumni Assn. Ying Yip Primary School",
+        "clientChinese": "元朗公立中學校友會英業小學",
+        "location": "No.86, Tin Shui Road, Tin Shui Wai, N.T.",
+        "projectType": "LED顯示板",
+        "details": "為元朗公立中學校友會英業小學提供LED顯示板解決方案。",
+        "image": "assets/images/job-references/ylpms-ying-yip.jpg"
+      },
+      "jobRef43": {
+        "client": "PLK Dr. Jimmy Wong Chi-Ho (Tin Sum Valley) Pri. School",
+        "clientChinese": "保良局王賜豪(田心谷)小學",
+        "location": "No.2A, Lung Hang Estate, Shatin, N.T.",
+        "projectType": "LED顯示板",
+        "details": "為保良局王賜豪小學提供LED顯示板解決方案。",
+        "image": "assets/images/job-references/plk-jimmy-wong.jpg"
+      },
+      "jobRef44": {
+        "client": "PLK Fung Ching Memorial Primary School",
+        "clientChinese": "保良局馮晴紀念小學",
+        "location": "No.2, Pui Shing Road, Tseung Kwan O, N.T.",
+        "projectType": "LED顯示板",
+        "details": "為保良局馮晴紀念小學提供LED顯示板解決方案。",
+        "image": "assets/images/job-references/plk-fung-ching.jpg"
+      },
+      "jobRef45": {
+        "client": "St. Barnabas' Church",
+        "clientChinese": "聖公會聖巴拿巴堂",
+        "location": "No.71, Shui Wo Street, Kwun Tong, Kowloon, Hong Kong",
+        "projectType": "LED顯示板",
+        "details": "為聖公會聖巴拿巴堂提供LED顯示板解決方案。",
+        "image": "assets/images/job-references/st-barnabas.jpg"
+      },
+      "jobRef46": {
+        "client": "Tsang Fook Piano Co. Ltd.",
+        "clientChinese": "曾福琴行",
+        "location": "UG/F, Eaton Hotel, Nathan Road, Kowloon Hong Kong",
+        "projectType": "LED顯示板",
+        "details": "為曾福琴行提供LED顯示板解決方案。",
+        "image": "assets/images/job-references/tsang-fook.jpg"
+      },
+      "jobRef47": {
+        "client": "Abbott Labs Ltd.",
+        "clientChinese": "美國雅培製藥有限公司",
+        "location": "20/F AIA Tower, North Point, Hong Kong",
+        "projectType": "LED顯示板",
+        "details": "為美國雅培製藥提供LED顯示板解決方案。",
+        "image": "assets/images/job-references/abbott.jpg"
+      },
+      "jobRef48": {
+        "client": "Modern Hi-Tech Limited",
+        "clientChinese": "現代高科技有限公司",
+        "location": "R103, 蝴蝶廣場, 屯門湖翠路1號",
+        "projectType": "預約系統",
+        "details": "為現代高科技有限公司提供預約系統，用於管理預約和客戶預訂。",
+        "image": "assets/images/job-references/job-ref-MHT.png"
+      }
+    },
     "allBlogs": {
       "allBlog1": {
         "image": "assets/images/blog/single-blog1.webp",
@@ -1240,6 +1706,31 @@
       "title": "All-Blogs",
       "home": "Home"
     },
+    "allJobReferencesHero": {
+      "title": "工程案例",
+      "home": "主頁"
+    },
+    "jobReferencesCategories": {
+      "title": "項目類型",
+      "all": "全部項目",
+      "queuingSystem": "自動排隊系統",
+      "centralControlLED": "中央控制LED系統",
+      "outdoorLEDTraffic": "戶外LED交通標誌",
+      "outdoorLEDDisplay": "戶外LED顯示板",
+      "indoorLEDDisplay": "室內LED顯示板",
+      "gprsLED": "GPRS LED系統",
+      "dotMatrixLED": "點陣LED顯示板",
+      "others": "其他項目"
+    },
+    "jobReferencesFilter": {
+      "searchPlaceholder": "搜尋客戶名稱或項目類型...",
+      "sortBy": "排序方式",
+      "sortByDate": "日期",
+      "sortByName": "名稱",
+      "sortByType": "項目類型",
+      "resultsCount": "共 {count} 個項目",
+      "noResults": "未找到符合條件的項目"
+    },
     "singleBlogHero": {
       "title": "Single-Blog",
       "home": "Home"
@@ -1253,16 +1744,15 @@
       "home": "Home"
     },
     "sidebar": {
-      "title1": "Search",
-      "title2": "Category",
-      "button": "Search",
-      "category1": "Creative",
-      "category2": "Marketing",
-      "category3": "Digital AI",
-      "category4": "Theme Upload",
-      "category5": "Software Marketing",
-      "category6": "Agency",
-      "category7": "Social Marketing"
+      "title1": "搜尋",
+      "title2": "類別",
+      "button": "搜尋",
+      "search": "搜尋工作參考...",
+      "category1": "所有項目",
+      "category2": "預約系統",
+      "category3": "LED系統",
+      "category4": "LED交通系統",
+      "category5": "排隊系統"
     },
     "allProject": {
       "project1": {
@@ -1351,5 +1841,153 @@
         "title": "Share"
       },
       "button": "Live Preview"
+    },
+    
+    "bookingSystem": {
+      "hero": {
+        "subtitle": "預約及排隊系統",
+        "title": "以智能預約系統提升診所營運效率",
+        "description": "專為診所設計，支援診斷、治療、藥房及付款的自動多隊列流程。簡化營運流程，提升顧客滿意度。",
+        "badge": "項目",
+        "phone": "電話",
+        "whatsapp": "WhatsApp",
+        "email": "電郵"
+      },
+      "features": {
+        "title": "現代診所的強大功能",
+        "subtitle": "主要功能",
+        "feature1": {
+          "title": "線上系統",
+          "description": "線上系統有助保持距離及預防疾病傳播。"
+        },
+        "feature2": {
+          "title": "診所多隊列支援",
+          "description": "專為診斷、治療、藥房及付款流程設計的自動多隊列流程"
+        },
+        "feature3": {
+          "title": "節省員工時間",
+          "description": "自動化預約安排及隊列管理，減少人手工作及行政負擔"
+        },
+        "feature4": {
+          "title": "用戶友善介面",
+          "description": "直觀的設計適合顧客及員工使用，確保易於採用及高效營運"
+        },
+        "feature5": {
+          "title": "提升顧客滿意度",
+          "description": "減少等候時間，透過有序的隊列管理提供更佳的病人體驗"
+        },
+        "feature6": {
+          "title": "24/7 線上預約",
+          "description": "顧客可隨時隨地透過網頁或流動裝置介面預約"
+        },
+        "feature7": {
+          "title": "自動提醒",
+          "description": "透過短訊、WhatsApp 及電郵自動發送預約提醒，減少缺席率"
+        },
+        "feature8": {
+          "title": "排隊系統整合",
+          "description": "完全整合我們專業的排隊系統，實現無縫的病人流程管理"
+        }
+      },
+      "howItWorks": {
+        "title": "簡單高效的流程",
+        "subtitle": "運作方式",
+        "note": "立即開始，體驗診所營運的轉變",
+        "step1": {
+          "title": "自動生成時間表",
+          "description": "系統根據診所可用時間及員工容量自動生成最佳預約時間表"
+        },
+        "step2": {
+          "title": "線上預約",
+          "description": "顧客可在方便時透過網頁或流動裝置介面線上預約"
+        },
+        "step3": {
+          "title": "員工確認",
+          "description": "員工審核並確認預約，按需要作出調整，並為病人到訪作準備"
+        },
+        "step4": {
+          "title": "自動提醒",
+          "description": "系統透過短訊、WhatsApp 及電郵發送自動提醒，減少缺席並提高出席率"
+        }
+      },
+      "advancedFeatures": {
+        "title": "進階隊列管理",
+        "subtitle": "強大功能",
+        "note": "聯絡我們的團隊，了解更多為您診所度身訂造的進階功能",
+        "slider1": {
+          "title": "組織所有登記",
+          "description": "在集中式控制台管理及組織所有已登記的顧客。實時追蹤病人在診斷、治療、藥房及付款隊列中的狀態。"
+        },
+        "slider2": {
+          "title": "自動生成服務次序",
+          "description": "根據登記時間、預約優先次序及診所工作流程自動生成最佳服務次序。確保整個設施內公平高效的病人流程。"
+        },
+        "slider3": {
+          "title": "實時狀態更新",
+          "description": "為病人提供實時隊列位置及預計等候時間更新。讓所有人知情並減少候診區的焦慮。"
+        }
+      },
+      "customers": {
+        "title": "深受領先機構信賴",
+        "subtitle": "我們的客戶",
+        "description": "我們榮幸為香港各政府部門、醫療機構及服務中心提供服務",
+        "project1": {
+          "title": "香港國際機場"
+        },
+        "project2": {
+          "title": "國際電子產品公司"
+        },
+        "project3": {
+          "title": "醫療保健"
+        },
+        "project4": {
+          "title": "全球公認品牌"
+        },
+        "project5": {
+          "title": "全球最大企業之一"
+        },
+        "project6": {
+          "title": "日本汽車製造商"
+        },
+        "testimonials": {
+          "title": "客戶評價",
+          "review1": {
+            "name": "黃安雅醫生",
+            "title": "診所主任",
+            "description": "預約系統徹底改變了我們診所的營運。我們減少了40%的缺席率，員工可以更專注於病人護理而非行政工作。"
+          },
+          "review2": {
+            "name": "陳先生",
+            "title": "營運經理",
+            "description": "與現有排隊管理系統完美整合。透過 WhatsApp 發送的自動提醒在提高預約出席率方面特別有效。"
+          },
+          "review3": {
+            "name": "李女士",
+            "title": "醫療行政人員",
+            "description": "病人和員工都覺得介面易用。診斷、治療、藥房及付款的多隊列流程顯著簡化了我們整個工作流程。"
+          }
+        }
+      },
+      "contact": {
+        "title": "立即開始",
+        "subtitle": "聯絡我們",
+        "description": "準備好改變您的診所營運了嗎？聯絡我們的團隊進行諮詢，了解我們的預約系統如何為您服務。",
+        "info1": {
+          "title": "電話",
+          "text": "+852 27578547"
+        },
+        "info2": {
+          "title": "WhatsApp",
+          "text": "+852 5722 5345"
+        },
+        "info3": {
+          "title": "電郵",
+          "text": "sales@tsvd.com.hk"
+        },
+        "info4": {
+          "title": "地址",
+          "text": "香港九龍灣宏開道6號精進工業大廈A座7樓A7室"
+        }
+      }
     }
   }

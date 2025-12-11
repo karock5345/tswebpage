@@ -34,6 +34,10 @@
       "dropdownItem7": {
         "link": "/apps-landing",
         "title": "Apps landing"
+      },
+      "dropdownItem8": {
+        "link": "/booking-system",
+        "title": "Booking System"
       }
 
     },
@@ -62,8 +66,21 @@
 
     "tsothers": {
       "link": "tsothers",
-      "title": "Other Services",
-      "isDropdown": false
+      "title": "Our Products",
+      "isDropdown": true,
+      "dropdownItem1": {
+        "link": "/",
+        "title": "Queuing System"
+      },
+      "dropdownItem2": {
+        "link": "/booking-system",
+        "title": "Booking System"
+      }
+    },
+    "jobreferences": {
+      "link": "/projects",
+      "title": "PROJECTS",
+      "subtitle": "Client Project References"
     }
   },
 
@@ -586,6 +603,16 @@
       "projectDropdown2": {
         "link": "/project-details",
         "title": "project Details"
+      }
+    },
+    "jobReference": {
+      "link": "job-references",
+      "title": "Job Reference",
+      "isDropdown": true,
+
+      "jobReferenceDropdown1": {
+        "link": "/job-references",
+        "title": "All Job References"
       }
     }
   }

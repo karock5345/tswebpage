@@ -268,6 +268,46 @@ const SinglePageHeader = ({ header }) => {
                     </li>
                   </ul>
                 </li>
+                <li className="nav-item dropdown submenu">
+                  <Link
+                    activeClass="active"
+                    className="nav-link scroll dropdown-toggle"
+                    to={header.jobReference.link}
+                    spy={true}
+                    isDynamic={false}
+                    hashSpy={false}
+                    spyThrottle={500}
+                    smooth={true}
+                    duration={500}
+                    offset={-60}
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <Trans i18nKey="singlePageHeader.jobReference.title">
+                      {header.jobReference.title}
+                    </Trans>
+
+                    <span onClick={handleToggle} className="sub-menu-toggle">
+                      <GoChevronDown />
+                    </span>
+                  </Link>
+                  <ul
+                    className={
+                      isActive ? "dropdown-menu show" : "dropdown-menu"
+                    }
+                  >
+                    <li className="nav-item">
+                      <PageLink
+                        to={header.jobReference.jobReferenceDropdown1.link}
+                        className="nav-link"
+                      >
+                        <Trans i18nKey="singlePageHeader.jobReference.jobReferenceDropdown1">
+                          {header.jobReference.jobReferenceDropdown1.title}
+                        </Trans>
+                      </PageLink>
+                    </li>
+                  </ul>
+                </li>
                 <li
                   className="nav-item dropdown submenu"
                   title={t("language")}

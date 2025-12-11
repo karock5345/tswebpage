@@ -80,26 +80,32 @@
         "image": "assets/images/ts_features/f05-branchs.png",
         "icon": "icofont-company",
         "title": "One system multiple branch",
-        "development": "Support multiple branch. Centralize settings including staff login, supervision, access data for analysis between branches etc."
+        "development": "Centralized multi-branch management for staff login, oversight, and data analysis."
       },
       {
         "remark":"// web ticketing",
         "image": "assets/images/ts_features/f06-route.png",
         "icon": "icofont-chart-flow-2",
-        "title": "One ticket for multiple counter",
-        "development": "Set the flow tailor to your centre for example, one ticket to queue for Information counter -> cashier counter"
+        "title": "One ticket, multiple counters",
+        "development": "Customize the flow—for example, one ticket from Information to Cashier"
       },
       {
         "image": "assets/images/ts_features/f07-voice.png",
         "icon": "icofont-ui-volume",
         "title": "Voice announement",
-        "development": "Support Cantonese, English, Mandarin and Portuguese voice announcement, make sure anyone are notified by a familiar language"
+        "development": "Cantonese, English, Mandarin, and Portuguese voice announcements so all users hear updates in their own language."
       },
       {
         "image": "assets/images/ts_features/f08-paper.png",
         "icon": "icofont-paper",
         "title": "Out of Paper notification",
         "development": "Noifity ticket printer paper near-end / paper out."
+      },
+      {
+        "image": "assets/images/ts_features/f00-ipad_iphone.png",
+        "icon": "icofont-ui-touch-phone",
+        "title": "Cross-Platform Ready",
+        "development": "Accessible across Windows, macOS, iPhone/iPad, and Android for maximum flexibility."
       }
     
     ]
