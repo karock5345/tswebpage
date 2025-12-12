@@ -16,7 +16,7 @@ const BookingSystem = ({ header }) => {
 
   // Map customer project IDs to their corresponding row indices in /projects
   const customerToProjectRowMap = {
-    1: 6,  // Immigration Department -> row 7 (index 6)
+    1: 3,  // Hong Kong International Airport -> index 3 (ID 25)
     2: 0,  // LG Healthcare Center -> row 1 (index 0)
     3: 23, // Quality Healthcare Medical Center -> row 24 (index 23)
     4: 2,  // GIA Clinic Services -> row 3 (index 2)

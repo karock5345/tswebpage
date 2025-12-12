@@ -23,19 +23,19 @@ const { locale } = useContext(LocaleContext);
           <div className="testimonial__slide__content">
             <ul>
               <li>
-                <i className="icofont-star"></i>
+                <i className=" icofont-star"></i>
               </li>
               <li>
-                <i className="icofont-star"></i>
+                <i className=" icofont-star"></i>
               </li>
               <li>
-                <i className="icofont-star"></i>
+                <i className=" icofont-star"></i>
               </li>
               <li>
-                <i className="icofont-star"></i>
+                <i className=" icofont-star"></i>
               </li>
               <li>
-                <i className="icofont-star"></i>
+                <i className=" icofont-star"></i>
               </li>
             </ul>
             <p>

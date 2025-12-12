@@ -1,3 +1,25 @@
+# Change icon from star to checkmark in "WHAT WE DO" section
+> reboot-main > reboot-react > src > assets > sass > components > _what-we-do.scss
+```scss
+&:before {
+  content: '\ec7c';  // icofont-ui-rating (star icon)
+  font-family: 'IcoFont';
+  position: absolute;
+  left: 0;
+  color: #FE5A10;
+}
+```
+## changed to :
+```scss
+&:before {
+  content: '\f021';  // icofont-verification-check (checkmark icon)
+  font-family: 'IcoFont';
+  position: absolute;
+  left: 0;
+  color: #FE5A10;
+}
+```
+
 # Stop showing "CRM"
 > reboot-main > reboot-react > public > locales > en > translation.json > whatWeDo > itemList1
 ```json

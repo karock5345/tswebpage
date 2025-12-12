@@ -75,19 +75,19 @@ const Herov6 = () => {
               </p>
               <ul className="d-flex align-items-center mb-4 gap-2">
                 <li>
-                  <i className="icofont-star"></i>
+                  <i className=" icofont-star"></i>
                 </li>
                 <li>
-                  <i className="icofont-star"></i>
+                  <i className=" icofont-star"></i>
                 </li>
                 <li>
-                  <i className="icofont-star"></i>
+                  <i className=" icofont-star"></i>
                 </li>
                 <li>
-                  <i className="icofont-star"></i>
+                  <i className=" icofont-star"></i>
                 </li>
                 <li>
-                  <i className="icofont-star"></i>
+                  <i className=" icofont-star"></i>
                 </li>
                 <li><Trans i18nKey="herov6.star">{star}</Trans></li>
               </ul>

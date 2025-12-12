@@ -32,11 +32,11 @@ const Aboutv3 = ({ isBg }) => {
                     {points}
                   </span>
                   <span className="about3__image__brand--rating--stars">
-                    <i className="icofont-star"></i>
-                    <i className="icofont-star"></i>
-                    <i className="icofont-star"></i>
-                    <i className="icofont-star"></i>
-                    <i className="icofont-star"></i>
+                    <i className=" icofont-star"></i>
+                    <i className=" icofont-star"></i>
+                    <i className=" icofont-star"></i>
+                    <i className=" icofont-star"></i>
+                    <i className=" icofont-star"></i>
                   </span>
                   <div className="about3__image__brand--rating--count">
                     {ratings}
