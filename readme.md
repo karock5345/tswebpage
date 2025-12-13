@@ -1,3 +1,43 @@
+# About us page
+
+Created a comprehensive About us page at `/about-us` route showcasing company information and achievements.
+
+## Key sections:
+
+- **Hero Section**: Company tagline and subtitle with 20+ years experience highlight
+- **Who We Are**: Company introduction - TS v-development Limited, Hong Kong-based IT solutions provider
+- **Our Expertise**: Core competencies displayed in a grid layout with icons
+- **Why Choose Us**: Competitive advantages with visual cards
+- **Track Record**: Achievement counters (Successful Projects, Years of Experience, Happy Clients, Customer Satisfaction)
+- **Trusted By**: Logos section for client companies
+
+## Files involved:
+
+- `src/components/pages/about-us.js` - Main page component
+- `public/locales/en/translation.json` - aboutUsPage section
+- `public/locales/tc/translation.json` - aboutUsPage section
+- Route defined in `src/App.js`
+
+# Building a new job references page
+
+Created a dedicated job references page at `/projects` route that displays all client projects with filtering and search capabilities.
+
+## Key features:
+
+- Filter by categories: Queuing System, Booking System, LED Display, All Projects, Others
+- Search functionality by client name (English and Chinese)
+- Responsive grid layout
+- Bilingual support (English/Traditional Chinese)
+- Auto-scroll to specific project when navigating from booking system customer photos
+
+## Files involved:
+
+- `src/components/all-job-references.js` - Main component
+- `src/data/job-references.json` - Project data (38 entries)
+- `public/locales/en/translation.json` - English translations
+- `public/locales/tc/translation.json` - Traditional Chinese translations
+- Customer navigation mapping in `src/components/pages/booking-system.js`
+
 # Change icon from star to checkmark in "WHAT WE DO" section
 
 > reboot-main > reboot-react > src > assets > sass > components > \_what-we-do.scss
@@ -71,6 +111,36 @@
 ```
 
 The HTML (React) template is bought from monstertemplate.com
+
+# Promotional/Marketing Page for Appointments & Booking System
+
+A dedicated promotional page has been created for the Appointments & Booking System at `/booking-system`.
+
+## Features
+
+- **Hero Section**: Transform clinic operations with smart booking, contact buttons (Phone, WhatsApp, Email), and "300+ Projects" badge
+- **Key Features**: 7 powerful features including clinic multi-queue support, automated reminders, 24/7 online booking, and queue system integration
+- **How It Works**: 4-step process with images showing auto-generated schedules, online booking, staff confirmation, and automated reminders
+- **Powerful Capabilities**: Advanced features for organizing check-ins, auto-generating service orders, and real-time status updates
+- **Our Customers**: Showcase of 6 customer projects and 3 client testimonials (Dr. Anya Wong, Michael Chan, Linda Lee)
+- **Contact Us**: Multiple contact channels with location, phone, email, and website information
+
+## Files Structure
+
+- Data: `src/data/booking-system.json`
+- Component: `src/components/pages/booking-system.js`
+- Route: `/booking-system` in `src/App.js`
+- Navigation: Added to header menu under "Our Products" dropdown
+- Translations: English, Traditional Chinese, and Arabic support in `public/locales/`
+- Styling: Dark background sections with theme-responsive styling in `src/assets/sass/base/_base.scss`
+
+## Key Customizations
+
+- Multi-language support (EN/TC/AR)
+- Dark/light theme compatibility
+- Mobile-responsive navigation with auto-close menu
+- Custom profile photos for testimonials (Anya.png, Michael.jpg, Linda.png)
+- Integrated with existing headerTS component and Footer2
 
 # Setup development env:
 
