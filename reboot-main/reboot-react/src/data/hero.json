@@ -5,8 +5,8 @@
     "description": "Many vendors, software developers, in particular, refer to all of their individual products as software solutions.",
     "button": "Get details",
     "image1": "assets/images/ts_hero/kiosk467x800.png",
-    "image2": "assets/images/ts_hero/ticket.png",
-    "image3": "assets/images/ts_hero/ipad_iphone500x400.png",
+    "image2": "assets/images/ts_hero/ipad_iphone500x400.png",
+    "image3": "assets/images/ts_hero/ticket.png",
     "badge": {
       "title": "Sites",
       "counterNumber": "300"
